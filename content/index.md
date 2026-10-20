@@ -12,7 +12,7 @@ description: "PASMA, the Private Archive of Scanned Music Artifacts: a dataset r
 <p class="affil">Institute of Information Science, Academia Sinica · Graduate Institute of Musicology, National Taiwan University · Taipei, Taiwan</p>
 </section>
 
-The history of popular music is written around front-stage stars, and music information retrieval has inherited that bias. The arrangers, session musicians and recording engineers who made the sound of postwar Taiwan are absent from the field's datasets. **PASMA** (the Private Archive of Scanned Music Artifacts) puts them back: a dataset of backstage credits reconstructed from the liner notes of Taiwanese vinyl records, modelled as a collaboration network and set against the sound of the records themselves.
+Georgina Born warned that MIR's data infrastructures reduce music to representations and risk mistaking the representation for the thing. For the people who made the sound of postwar Taiwanese popular music, the arrangers, session musicians and recording engineers in small print on the sleeve, the problem is not reduction. It is **absence**: they have never been encoded in any database, and in an age of metadata, absence from the record is erasure from history. This paper argues that writing them into the very infrastructure Born criticizes is an **ontological intervention**, an act that grants them a digital existence they never had, and it builds the case with a dataset, a network and the sound itself. **PASMA** (the Private Archive of Scanned Music Artifacts) is that dataset: backstage credits reconstructed from the liner notes of Taiwanese vinyl records, modelled as a collaboration network and set against the recordings.
 
 <div class="stats">
 <div class="stat"><div class="n">{唱片數}</div><div class="k">vinyl liner notes</div></div>
@@ -21,11 +21,12 @@ The history of popular music is written around front-stage stars, and music info
 <div class="stat"><div class="n">{人物角色類數} + {機構類數}</div><div class="k">role categories (persons + institutions)</div></div>
 </div>
 
-## What we found
+## What the evidence shows
 
-Two methods that never saw each other's data point to the same year. The collaboration network built from the credits turns sharply around **1978**: a fragmented, label-centred ecology becomes one giant component centred on recording studios and bridged by arrangers and session musicians. MERT audio embeddings of the vocal-separated recordings, computed with no dates given, split at the same year. The arrangement traditions that the network defines occupy distinct regions of the acoustic space, and the one arranger who crossed every tradition, Chen Chih-Yuan 陳志遠, produced sound that crosses every cluster.
+The intervention is not a gesture because the record it creates has structure that the sound independently confirms. Two methods that never saw each other's data point to the same year. The collaboration network built from the credits turns sharply around **1978**: a fragmented, label-centred ecology becomes one giant component centred on recording studios and bridged by arrangers and session musicians. MERT audio embeddings of the vocal-separated recordings, computed with no dates given, split at the same year. The arrangement traditions that the network defines occupy distinct regions of the acoustic space, and the one arranger who crossed every tradition, Chen Chih-Yuan 陳志遠, produced sound that crosses every cluster.
 
 <div class="cards">
+<a class="card" href="argument.html"><b>The Argument</b><span>Born's critique of MIR and our reply, point by point: absence rather than reduction, encoding as ontological intervention, archival silence as evidence.</span></a>
 <a class="card" href="history.html"><b>Historical Context</b><span>The background the paper could not fit: the military clubs, multitrack recording, Chen Chih-Yuan, the four arrangement traditions, with sources.</span></a>
 <a class="card" href="people.html"><b>Key People</b><span>Thirteen backstage figures behind the network's key nodes, with portraits and links to their oral histories.</span></a>
 <a class="card" href="dataset.html"><b>Dataset</b><span>How PASMA was built: sources, the five-stage LLM pipeline, the role taxonomy, validation, and how to request access.</span></a>

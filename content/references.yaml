@@ -18,11 +18,21 @@ Born2020:
   container: 'Transactions of the International Society for Music Information Retrieval 3(1): 193–204'
   title: 'Diversifying MIR: Knowledge and Real-World Challenges, and New Interdisciplinary Futures'
   year: '2020'
+Bourdieu1993:
+  author: Bourdieu, Pierre
+  container: 'New York, NY: Columbia University Press'
+  title: 'The Field of Cultural Production: Essays on Art and Literature'
+  year: '1993'
 Burt1992:
   author: Burt, Ronald S.
   container: 'Cambridge, MA: Harvard University Press'
   title: 'Structural Holes: The Social Structure of Competition'
   year: '1992'
+Campelo2015:
+  author: Campelo, Ines
+  container: Journal on the Art of Record Production(10)
+  title: '‘That Extra Thing'': The Role of Session Musicians in the Recording Industry'
+  year: '2015'
 Defossez2022hybrid:
   author: Defossez, Alexandre
   container: arXiv preprint arXiv:2111.03600
@@ -47,6 +57,11 @@ Pinch1984:
   title: 'The Social Construction of Facts and Artefacts: Or How the Sociology of Science and the Sociology of Technology
     Might Benefit Each Other'
   year: '1984'
+Small1998:
+  author: Small, Christopher
+  container: 'Hanover, NH: Wesleyan University Press'
+  title: 'Musicking: The Meanings of Performing and Listening'
+  year: '1998'
 WattsStrogatz1998:
   author: Watts, Duncan J. and Strogatz, Steven H.
   container: 'Nature 393(6684): 440–442'
