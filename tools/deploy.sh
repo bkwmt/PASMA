@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # PASMA 網站部署。
 #   tools/deploy.sh "commit message"   建置 → 檢查 → commit → push → 線上驗證
-#   tools/deploy.sh --init             只做一次：刪除並重建 GitHub repo bkwmt/PASMA（清掉含資料的舊歷史）、
-#                                      推送、啟用 Pages、驗證；需要使用者輸入 DELETE-PASMA 才會執行。
+#   tools/deploy.sh --init             只做一次（已於 2026-10-20 執行）：把含資料的舊 repo 改名為 PASMA-archive-2026-06
+#                                      並轉私有，建新 bkwmt/PASMA、推送、啟用 Pages、驗證；需輸入 INIT-PASMA。
+#                                      舊私有 repo 之後可用 `gh auth refresh -s delete_repo && gh repo delete bkwmt/PASMA-archive-2026-06` 刪除。
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
@@ -34,13 +35,13 @@ verify_online() {
 }
 
 if [[ "${1:-}" == "--init" ]]; then
-  echo "This deletes the GitHub repo $REPO (its history holds the dataset) and recreates it."
-  read -r -p "Type DELETE-PASMA to continue: " ans
-  [[ "$ans" == "DELETE-PASMA" ]] || { echo "aborted"; exit 1; }
+  echo "This renames the existing GitHub repo $REPO (its history holds the dataset) to PASMA-archive-$(date +%Y-%m), makes it private, and creates a fresh $REPO."
+  read -r -p "Type INIT-PASMA to continue: " ans
+  [[ "$ans" == "INIT-PASMA" ]] || { echo "aborted"; exit 1; }
   build_and_check
   gh auth status >/dev/null
-  gh auth refresh -h github.com -s delete_repo
-  gh repo delete "$REPO" --yes
+  gh repo rename "PASMA-archive-$(date +%Y-%m)" -R "$REPO" --yes
+  gh repo edit "bkwmt/PASMA-archive-$(date +%Y-%m)" --visibility private --accept-visibility-change-consequences
   gh repo create "$REPO" --public --disable-wiki \
     --description "PASMA: Private Archive of Scanned Music Artifacts — project site of the ISMIR 2026 paper (backstage networks in postwar Taiwanese popular music)"
   if [[ ! -d .git ]]; then git init -b main; fi
