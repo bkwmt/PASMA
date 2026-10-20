@@ -1,0 +1,263 @@
+# Biographical data paraphrased from Taipei Music Center, Taiwan Popular Music Database (pmdb.taipei), accessed 2026-10-20, and from Cheng (2026) dissertation footnotes.
+# role_in_study：在本研究中的位置（網站作者填）；publish：false 則不上站。{鍵} 由 numbers.json 代入。
+
+- slug: weng-ching-hsi
+  name_zh: 翁清溪
+  name_en: Weng Ching-hsi
+  dates: 1936–2012
+  roles_en:
+  - composer
+  - arranger
+  - big-band leader
+  tradition: pre
+  portrait: 翁清溪.jpg
+  pmdb_url: https://pmdb.taipei/xchisvideo/cont?xsmsid=0P077652866224904029&roletpye=&sid=0P133423103905324651
+  bio_en: Known professionally as Tony, Weng was a Taipei-born, largely self-taught multi-instrumentalist
+    who absorbed jazz from the nightclub circuit and formed the Tony Big Band in 1962. He went on to lead
+    the house big bands of the CTS and TTV television networks, studied jazz and film scoring in Southern
+    California in 1973, and wrote standards such as "The Moon Represents My Heart" and "Small Town Story"
+    for Teresa Teng. He received the Golden Melody Special Contribution Award in 1999.
+  notes: ''
+  role_in_study: Anchor of the Pre-multitrack tradition in Fig. 3; a big-band arranger of the pre-1978
+    network (see Historical Context, Sections 1 and 6).
+  publish: true
+- slug: chou-lan-ping
+  name_zh: 周藍萍
+  name_en: Chou Lan-ping
+  dates: 1925–1971
+  roles_en:
+  - composer
+  - film composer
+  tradition: pre
+  portrait: 周藍萍.jpg
+  pmdb_url: https://pmdb.taipei/xchisvideo/cont?xsmsid=0P077652866224904029&roletpye=&sid=0P119383537354471474
+  bio_en: Born in Hunan and trained in voice at the National Conservatory, Chou settled in Taiwan in 1949
+    and joined the Broadcasting Corporation of China as choir conductor, tenor and staff composer. His
+    1954 song "Green Island Serenade" became a standard. From 1963 he scored films for Shaw Brothers in
+    Hong Kong, beginning with the Huangmei opera film "The Love Eterne", and won three Golden Horse Awards
+    for best music before dying at 46 while scoring a film.
+  notes: 生卒年兩來源一致；博論註在 ch01.tex 第 164 行（非 ch03–05）。
+  role_in_study: Mainland-born composer of the first period; one reference point for the pre-multitrack
+    sound (Historical Context, Section 1).
+  publish: true
+- slug: lin-li-han
+  name_zh: 林禮涵
+  name_en: Lin Li-han
+  dates: 1912–1979
+  roles_en:
+  - arranger
+  - pianist
+  - big-band leader
+  tradition: pre
+  portrait: ''
+  pmdb_url: ''
+  bio_en: A native of Wanhua in Taipei, Lin was a rare jazz pianist and violinist in the Taiwanese scene
+    of his day, playing at the US military clubs and the Broadcasting Corporation of China, and had already
+    worked for Victor Records under Japanese rule. After the war he settled in Sanchong and arranged for
+    virtually every label, including Hung Yi-feng's "Old Love Lingers" and Wu Chin-huai's Asia Records
+    series, deciding the orchestration alone and conducting the band in single-take sessions.
+  notes: 不在 pmdb 資料庫、無肖像；資料全部來自博論 ch03.tex 第 100 行註（引蔡棟雄編《戀戀三重埔》）與 ch04.tex 第 202 行註。
+  role_in_study: 'The single arranger of the pre-multitrack period: where early records name an arranger
+    at all, it is almost always Lin (Historical Context, Section 1).'
+  publish: true
+- slug: chen-chih-yuan
+  name_zh: 陳志遠
+  name_en: Chen Chih-Yuan
+  dates: 1950–2011
+  roles_en:
+  - arranger
+  - composer
+  - producer
+  tradition: chen
+  portrait: 陳志遠.jpg
+  pmdb_url: https://pmdb.taipei/xchisvideo/cont?xsmsid=0P077652866224904029&roletpye=&sid=0P119549495804320340
+  bio_en: Born in Taoyuan, Chen left school after junior high to play keyboards, passing through Su Rui's
+    band and Weng Ching-hsi's Tony Big Band, where Weng steered him toward session and arranging work.
+    His arrangements for the "Chinese Modern Folk Song" and Golden Rhythm Award albums from 1976 made
+    him the central arranger of Mandarin pop in the 1980s; he later produced in-house for UFO Records
+    and co-founded Forward Music in 1995. Golden Melody Special Contribution Award, 2008.
+  notes: 生卒年兩來源一致。加入湯尼大樂隊與飛碟駐廠製作人兩點取自博論 ch04.tex 第 293 行註與 ch05.tex 第 365 行。
+  role_in_study: 'Arr. #1 in Fig. 2: the lowest Burt constraint in the whole {年份起}–{年份迄} network, credited
+    on {陳志遠_專輯數} albums with {陳志遠_合作者數} collaborators. His works spread across the entire MERT space (Fig.
+    3b).'
+  publish: true
+- slug: chen-yu-li
+  name_zh: 陳玉立
+  name_en: Chen Yu-li
+  dates: ''
+  roles_en:
+  - keyboardist
+  - arranger
+  - producer
+  tradition: chen
+  portrait: 陳玉立.jpg
+  pmdb_url: https://pmdb.taipei/xchisvideo/cont?xsmsid=0P077652866224904029&roletpye=&sid=0P127642584548180239
+  bio_en: Chen taught himself piano while working odd jobs at a dance hall as a teenager, and at twenty
+    joined the house band of Taipei's Tsai Shen Hotel. He became a session pianist and arranger for Lee
+    Tai-hsiang, Weng Ching-hsi and Chen Chih-yuan, often standing in for the latter on keyboards, and
+    in 1984 turned producer at Li Ge and Pai Pu Records. His 1986 production of "How Many Sunsets" for
+    Pan Yueh-yun became his signature.
+  notes: 兩來源皆未載生年，dates 留空。博論 ch05.tex 第 74 行註將他定位為陳志遠的鍵盤替手、屠穎口中「五人組」的核心樂手。
+  role_in_study: Chen Chih-Yuan's keyboard stand-in, counted among the core session players by studio
+    insiders; grouped with the Chen tradition in Fig. 3.
+  publish: true
+- slug: huang-jui-feng
+  name_zh: 黃瑞豐
+  name_en: Huang Jui-feng
+  dates: b. 1950
+  roles_en:
+  - drummer
+  - songwriter
+  tradition: chen
+  portrait: 黃瑞豐.jpg
+  pmdb_url: https://pmdb.taipei/xchisvideo/cont?xsmsid=0P077652866224904029&roletpye=&sid=0P119512943905324651
+  bio_en: Kaohsiung-born Huang took up drums at fourteen and, after turning professional in 1967, was
+    house drummer at the CCK US air base club in Taichung before joining the TTV big band in 1973. From
+    1975 he became the most recorded session drummer in Taiwan, playing on film, television, advertising
+    and record dates for arrangers across the industry, and from 1985 also wrote Taiwanese-language hits.
+    Nicknamed the "drum king of Taiwan", he received the Golden Melody Special Contribution Award in 2020.
+  notes: 英文圈慣稱 Rich Huang，可考慮於網站並列。博論 ch04.tex 第 297 行註將他列入「四人幫」節奏組樂手。
+  role_in_study: Drummer of the military-club cohort that appears as a separate cluster in the 1957–1978
+    snapshot (Fig. 2b); member of the rhythm-section “Gang of Four”.
+  publish: true
+- slug: hsu-chung-hsien
+  name_zh: 徐崇憲
+  name_en: Hsu Chung-hsien
+  dates: b. 1948
+  roles_en:
+  - recording engineer
+  - studio founder
+  tradition: chen
+  portrait: 徐崇憲.jpg
+  pmdb_url: https://pmdb.taipei/xchisvideo/cont?xsmsid=0P077652866224904029&roletpye=&sid=0P119545079288554324
+  bio_en: After military service Hsu joined Li Feng Records in Taipei in 1971 and was trained as an engineer
+    by Yao Hou-sheng, cutting his first album for Liu Wen-cheng in 1972. When the label's owner left Taiwan
+    in 1976 he bought the studio's equipment and ran it himself, formally as Kuan Yin, though the trade
+    kept calling it Li Feng. Through the 1980s he engineered landmark albums such as "The Olive Tree",
+    "Zhi Hu Zhe Ye" and "Blue Sky Every Day".
+  notes: 生年兩來源一致（1948–）。
+  role_in_study: Engineer whose name appears on most LP credits of the early 1980s; one of the few engineers
+    bridging the network before the role diffused (Table 1).
+  publish: true
+- slug: yeh-chui-ching
+  name_zh: 葉垂青
+  name_en: Yeh Chui-ching
+  dates: b. 1952
+  roles_en:
+  - studio founder
+  - disc-cutting engineer
+  - recording engineer
+  tradition: chen
+  portrait: 葉垂青.jpg
+  pmdb_url: https://pmdb.taipei/xchisvideo/cont?xsmsid=0P077652866224904029&roletpye=&sid=0P119526085211681532
+  bio_en: Trained in engineering at Taipei Institute of Technology, Yeh entered the family's record-pressing
+    business in 1976 and from 1977 operated Taiwan's only Neumann VMS-70 cutting lathe, mastering most
+    of the island's LPs. Dissatisfied with the tapes he received, he founded Platinum Studio in 1980 with
+    a Swiss-imported 24-track system, advised by Japanese engineer Hirata Giichi. He was founding chair
+    of the AES Taiwan Section (2018) and received the Traditional Arts Golden Melody Special Award in
+    2019.
+  notes: 生年兩來源一致（1952–）；博論的傳記註在 ch01.tex 第 239 行，ch04.tex 第 39–59 行有完整敘事（平田義一一節）。「垂」依 Wade–Giles 作 Chui，若本人有慣用英文拼法請改用。
+  role_in_study: Founder of Platinum Studio, one of the recording studios at the centre of the 1957–1991
+    snapshot (Fig. 2c; Historical Context, Section 4).
+  publish: true
+- slug: liu-ching-chih
+  name_zh: 劉清池
+  name_en: Liu Ching-chih
+  dates: b. 1943
+  roles_en:
+  - arranger
+  - Electone player
+  - guitarist
+  tradition: electone
+  portrait: ''
+  pmdb_url: ''
+  bio_en: A self-taught musician from Wanhua in Taipei, Liu entered the record business at 23 as a guitarist
+    cutting instrumental albums for Ling Ling Records, then learned arranging inside Lin Li-han's studio
+    band. From the 1980s he was the central arranger of Taiwanese-language pop, building a low-cost, Electone-
+    and MIDI-driven sound for hits such as "Love to Fight Will Win", while his own easy-listening albums
+    sold in enormous numbers. Golden Melody Special Contribution Award, 2024.
+  notes: 不在 pmdb 資料庫、無肖像；資料來自博論 ch05.tex 第 266 行註與同節正文（引陳培豐〈雙重解殖與「臺灣味音樂」的形塑（Ⅰ）〉及 T-Life 2024 年 9 月專訪）。2024
+    年另獲首屆文協獎章。
+  role_in_study: Anchor of the Electone tradition in Fig. 3; the dissertation's case study of the parallel
+    Taiwanese-language path (Historical Context, Section 6).
+  publish: true
+- slug: chi-ming-yang
+  name_zh: 紀明陽
+  name_en: Chi Ming-yang
+  dates: b. 1950
+  roles_en:
+  - arranger
+  - songwriter
+  - producer
+  tradition: electone
+  portrait: 紀明陽.jpg
+  pmdb_url: https://pmdb.taipei/xchisvideo/cont?xsmsid=0P077652866224904029&roletpye=&sid=0P119432078136239370
+  bio_en: Born in Chiayi, Chi learned saxophone, trumpet and drums as a schoolboy and was already playing
+    dance halls in junior high. After naval service and a spell in a trading company he joined a record
+    label as a full-time songwriter and arranger, and over nearly four decades wrote and arranged for
+    leading Taiwanese-language singers such as Huang Yi-ling, Hung Jung-hung, Chiang Hui and Yeh Chi-tien,
+    several of whose albums broke sales records.
+  notes: 博論無傳記註；ch05.tex 第 408 行將他與林國雄、劉清池並列為「臺語電子琴編曲圈」代表，ch04.tex 第 449 行註載其全期網絡中介中心性排名第 17。資料庫提及與其子合作，依規則未寫入。
+  role_in_study: Electone-tradition arranger; the poster links the Electone region of the MERT panel to
+    his node in the network.
+  publish: true
+- slug: tu-ying
+  name_zh: 屠穎
+  name_en: Tu Ying
+  dates: 1963–2025
+  roles_en:
+  - arranger
+  - keyboardist
+  - producer
+  tradition: post
+  portrait: 屠穎.jpg
+  pmdb_url: https://pmdb.taipei/xchisvideo/cont?xsmsid=0P077652866224904029&roletpye=&sid=0P122356356072178395
+  bio_en: A Taipei pianist who turned professional after high school, Tu joined Pai Pu Records in 1983
+    as a member of the band Blue Angels and began learning MIDI arranging there. In 1987 Weng Hsiao-liang
+    brought him to Dian Jiang Records as a staff arranger; Huang Shu-chun's "Wild Geese Over Cold Waters"
+    (1989) and a 1990 Golden Melody Award for arrangement made his name. He arranged over a thousand songs,
+    including Faye Wong's "Sky".
+  notes: 卒年衝突：博論 ch04.tex 第 289 行註作 1963–2025，資料庫作 1963–（在世）。依指示採博論，請確認。
+  role_in_study: Post-Chen era sample in Fig. 3; a MIDI-generation arranger who entered after the Chen
+    model had closed (Historical Context, Section 6).
+  publish: true
+- slug: huang-yun-ling
+  name_zh: 黃韻玲
+  name_en: Huang Yun-ling
+  dates: b. 1964
+  roles_en:
+  - singer-songwriter
+  - arranger
+  - producer
+  tradition: post
+  portrait: 黃韻玲.jpg
+  pmdb_url: https://pmdb.taipei/xchisvideo/cont?xsmsid=0P077652866224904029&roletpye=&sid=0P119564287019610534
+  bio_en: Raised in a musical family in Yilan, Huang won the 1979 Golden Rhythm Award with the vocal group
+    Four Little Ones as a teenager and wrote the theme for the film "Growing Up" while at the National
+    Academy of Arts. Her 1986 Rock Records debut "Sad Boy" stood out for its synthesizer-based arrangements.
+    She founded the Friendly Dog label in 1992, won the 2013 Golden Melody Award for composition, and
+    chaired the Taipei Music Center from 2020.
+  notes: 英文圈慣稱 Kay Huang。博論無傳記註，僅 ch05.tex 第 408 行列入「後陳志遠」組樣本。資料庫中的婚姻資訊依規則未寫入。
+  role_in_study: Post-Chen era sample in Fig. 3; singer-songwriter and arranger whose synthesizer-based
+    records mark the late-1980s sound.
+  publish: true
+- slug: tu-hui-yuan
+  name_zh: 凃惠源
+  name_en: Tu Hui-yuan
+  dates: ''
+  roles_en:
+  - keyboardist
+  - arranger
+  - composer
+  tradition: post
+  portrait: 凃惠源.jpg
+  pmdb_url: https://pmdb.taipei/xchisvideo/cont?xsmsid=0P077652866224904029&roletpye=&sid=0P119520840725381861
+  bio_en: Tu grew up on piano and electronic organ and as a schoolboy accompanied the vocal group Four
+    Little Ones at the 1979 Golden Rhythm Award. In the 1980s he played keyboards in the bands of Hsueh
+    Yueh, Harlem Yu and Chyi Chin before turning to studio arranging; Pan Yueh-yun's "Am I the One You
+    Love Most" (1989), which he arranged throughout, won the first Golden Melody best album award. He
+    later wrote A-mei's "Cutting Love" and "Listen to the Sea".
+  notes: 兩來源皆未載生年，dates 留空。姓氏用字：資料庫、肖像檔名與博論 ch05.tex 第 54 行註皆作「凃」，但 ch05.tex 第 408 行作「涂」，網站宜統一為「凃」。
+  role_in_study: Post-Chen era sample in Fig. 3; enters the top ten brokers of the 1987–1991 window as
+    a supplier of new timbres and tools.
+  publish: true

@@ -1,0 +1,217 @@
+1
+00:00:00,800 --> 00:00:02,860
+Hello, and thank you for watching.
+
+2
+00:00:03,360 --> 00:00:08,849
+This talk is about the people behind the
+sound of postwar Taiwanese popular music,
+
+3
+00:00:08,849 --> 00:00:11,460
+from the late 1950s to the early 1990s.
+
+4
+00:00:11,760 --> 00:00:14,440
+Who actually made the
+music on those records?
+
+5
+00:00:14,740 --> 00:00:19,200
+Not the singing stars in front of the
+microphone, at least not in those years.
+
+6
+00:00:19,250 --> 00:00:23,305
+The music itself was made backstage,
+by arrangers, session musicians,
+
+7
+00:00:23,305 --> 00:00:26,890
+and recording engineers whose
+names were rarely written down.
+
+8
+00:00:27,190 --> 00:00:30,896
+To find out when these people changed
+the sound, we used two sources
+
+9
+00:00:30,896 --> 00:00:34,765
+that know nothing about each other:
+the credits printed on the sleeves,
+
+10
+00:00:34,765 --> 00:00:35,910
+and the sound itself.
+
+11
+00:00:35,960 --> 00:00:38,840
+From the credits, we built
+a collaboration network.
+
+12
+00:00:38,890 --> 00:00:43,330
+From the sound, with no dates given,
+we computed MERT audio embeddings.
+
+13
+00:00:43,380 --> 00:00:46,620
+Both point to the same year: 1978.
+
+14
+00:00:46,920 --> 00:00:52,825
+What we built is PASMA, the Private
+Archive of Scanned Music Artifacts,
+
+15
+00:00:52,825 --> 00:00:58,480
+from the liner notes of 1,122
+Taiwanese vinyl records, 1957 to 1991.
+
+16
+00:00:58,530 --> 00:01:04,410
+An LLM pipeline rebuilds the credits in 5
+stages, each checked by a domain expert.
+
+17
+00:01:04,460 --> 00:01:08,880
+The result is 3,688
+people and institutions.
+
+18
+00:01:09,180 --> 00:01:10,820
+First, the network.
+
+19
+00:01:11,020 --> 00:01:15,598
+Before 1976 it is fragmented,
+with record labels at the centre
+
+20
+00:01:15,598 --> 00:01:17,740
+and lyricists as the bridges.
+
+21
+00:01:17,790 --> 00:01:23,670
+Around 1978, a new cohort of musicians
+from the American military clubs appears.
+
+22
+00:01:23,720 --> 00:01:29,440
+By 1991 it is one giant component,
+with recording studios at the centre.
+
+23
+00:01:29,490 --> 00:01:34,695
+Three metrics that need not move
+together turn in the same window,
+
+24
+00:01:34,695 --> 00:01:37,770
+and modularity drops from 0.69 to 0.51.
+
+25
+00:01:37,820 --> 00:01:41,680
+That is when Taiwan's industry
+adopted multitrack recording.
+
+26
+00:01:41,980 --> 00:01:43,800
+The bridges changed too.
+
+27
+00:01:43,850 --> 00:01:47,592
+Lyricists fall below parity,
+while arrangers, session players,
+
+28
+00:01:47,592 --> 00:01:50,610
+backing vocalists,
+and engineers take their place.
+
+29
+00:01:50,660 --> 00:01:55,220
+The strongest bridge across 35 years
+is an arranger, Chen Chih-Yuan.
+
+30
+00:01:55,270 --> 00:02:01,050
+He is credited on 178 albums
+and connects 338 collaborators.
+
+31
+00:02:01,350 --> 00:02:02,910
+Second, the sound.
+
+32
+00:02:03,110 --> 00:02:06,134
+We separated the vocals
+from 960 recordings
+
+33
+00:02:06,134 --> 00:02:09,370
+and embedded the
+instrumental stems with MERT.
+
+34
+00:02:09,420 --> 00:02:14,460
+Recordings before and after
+1978 occupy distinct regions.
+
+35
+00:02:14,510 --> 00:02:17,648
+Three arrangement traditions
+form their own clusters,
+
+36
+00:02:17,648 --> 00:02:21,910
+but one arranger's works spread across
+the entire space: Chen Chih-Yuan.
+
+37
+00:02:21,960 --> 00:02:25,620
+Remove him, and the remaining
+traditions separate more sharply.
+
+38
+00:02:25,670 --> 00:02:30,730
+The person who crossed all traditions also
+produced sound that crosses all clusters.
+
+39
+00:02:31,030 --> 00:02:32,690
+So what does this mean?
+
+40
+00:02:32,890 --> 00:02:37,050
+For these workers, absence from
+metadata meant erasure from history.
+
+41
+00:02:37,100 --> 00:02:40,716
+Encoding them into a database
+is an ontological intervention:
+
+42
+00:02:40,716 --> 00:02:43,620
+it gives them a digital
+existence they never had.
+
+43
+00:02:43,670 --> 00:02:46,763
+MIR can ask not only what
+algorithms can optimise,
+
+44
+00:02:46,763 --> 00:02:48,990
+but what histories they can restore.
+
+45
+00:02:49,040 --> 00:02:51,420
+PASMA is online at the address shown.
+
+46
+00:02:51,470 --> 00:02:53,070
+Thank you for watching.
+

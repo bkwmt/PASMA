@@ -1,0 +1,333 @@
+# 書目。鍵 = 內文 [@鍵]；來源：phd/mybib.bib（import_bib.py 抽出）、ISMIRtemplate.bib、代理提出的新條目（new-*）。
+# 欄位：author / year / title / container / url(可選) / note(可選)。中文條目保留原文，方括號內為英譯。
+
+Bijker1987FactsAndArtefacts:
+  author: Wiebe E. Bijker and Trevor Pinch
+  container: 'In The Social Construction of Technological Systems: New Directions in the Sociology and History of Technology,
+    11–44. Cambridge, MA: MIT Press'
+  title: 'The Social Construction of Facts and Artefacts: Or How the Sociology of Science and the Sociology of Technology
+    Might Benefit Each Other'
+  year: 1987 [2012]
+Blondel2008:
+  author: Blondel, Vincent D., Guillaume, Jean-Loup, Lambiotte, Renaud and Lefebvre, Etienne
+  container: 'Journal of Statistical Mechanics: Theory and Experiment 2008(10): P10008'
+  title: Fast Unfolding of Communities in Large Networks
+  year: '2008'
+Born2020:
+  author: Born, Georgina
+  container: 'Transactions of the International Society for Music Information Retrieval 3(1): 193–204'
+  title: 'Diversifying MIR: Knowledge and Real-World Challenges, and New Interdisciplinary Futures'
+  year: '2020'
+Burt1992:
+  author: Burt, Ronald S.
+  container: 'Cambridge, MA: Harvard University Press'
+  title: 'Structural Holes: The Social Structure of Competition'
+  year: '1992'
+Defossez2022hybrid:
+  author: Defossez, Alexandre
+  container: arXiv preprint arXiv:2111.03600
+  title: Hybrid Spectrogram and Waveform Source Separation
+  url: https://arxiv.org/abs/2111.03600
+  year: '2022'
+MERT2023:
+  author: Li, Yizhi, Yuan, Ruibin, Zhang, Ge, Ma, Yinghao, Chen, Xingran, Yin, Hanzhi, Xiao, Chenghao, Lin, Chenghua, Ragni,
+    Anton, Benetos, Emmanouil, Gyenge, Norbert, Dannenberg, Roger, Liu, Ruibo, Chen, Wenhu, Xia, Gus, Shi, Yemin, Huang, Wenhao,
+    Wang, Zili, Guo, Yike and Fu, Jie
+  container: In Proceedings of the International Conference on Learning Representations (ICLR)
+  title: 'MERT: Acoustic Music Understanding Model with Large-Scale Self-supervised Training'
+  year: '2024'
+McInnes2018:
+  author: McInnes, Leland, Healy, John and Melville, James
+  container: arXiv preprint arXiv:1802.03426
+  title: 'UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction'
+  year: '2018'
+Pinch1984:
+  author: Pinch, Trevor and Bijker, Wiebe
+  container: 'Social Studies of Science 14(3): 399–441'
+  title: 'The Social Construction of Facts and Artefacts: Or How the Sociology of Science and the Sociology of Technology
+    Might Benefit Each Other'
+  year: '1984'
+WattsStrogatz1998:
+  author: Watts, Duncan J. and Strogatz, Steven H.
+  container: 'Nature 393(6684): 440–442'
+  title: Collective Dynamics of ‘Small-World' Networks
+  year: '1998'
+becker2008artworlds:
+  author: Becker, Howard S.
+  container: 'Berkeley: University of California Press'
+  title: Art Worlds
+  year: '2008'
+chen2017rethinking:
+  author: 陳培豐
+  container: '台灣文學研究學報 25: 9–58'
+  title: 重新省思日治時期台語流行歌曲：以民謠觀的建立和音樂近代化作為觀點
+  year: '2017'
+chen2022decolonization:
+  author: 陳培豐
+  container: '臺灣文學研究集刊 27: 107–146'
+  title: 雙重解殖與「臺灣味音樂」的形塑（Ⅰ）：臺語流行音樂之路（劉清池篇）
+  url: https://doi.org/10.53106/181856492022020027004
+  year: '2022'
+cheng-fieldwork:
+  author: Cheng, Ming
+  container: Unpublished; cited in Cheng (2026)
+  title: Field interviews with Taiwanese recording engineers, studio owners and session musicians
+  year: 2015–2020
+cheng2026dissertation:
+  author: Cheng, Ming 程明
+  container: PhD dissertation, Graduate Institute of Musicology, National Taiwan University
+  title: '錄音室的封閉與鬆動：以幕後為方法的戰後臺灣流行音樂歷史敘事 [The Closure and Loosening of the Recording Studio: Behind-the-Scenes as Method for
+    Narrating Postwar Taiwanese Popular Music History]'
+  year: 2026
+chu2020rnr:
+  author: Chu, Meng-Tzu
+  container: 'In Made in Taiwan: Studies in Popular Music, 105–117. New York: Routledge'
+  title: 'Rock and Roll from Rest and Recreation (R&R): The Collective Memory of the Aging Pop-Rock Lovers in Taiwan'
+  year: '2020'
+hirata_1998_baijin:
+  author: 平田義一
+  container: '放送技術 51(1): 78–84'
+  title: 台湾の録音スタジオ事情と白金サラウンドスタジオ
+  year: '1998'
+hirata_japan_1979:
+  author: Hirata, Giichi
+  container: 'Studio Sound: 50–56'
+  title: Japan
+  year: '1979'
+horning2013chasing:
+  author: Horning, Susan Schmidt
+  container: JHU Press
+  title: 'Chasing sound: Technology, culture, and the art of studio recording from Edison to the LP'
+  year: '2013'
+horning_2004_engineering:
+  author: Horning, Susan Schmidt
+  container: 'Social Studies of Science 34(5): 703–731'
+  title: 'Engineering the Performance: Recording Engineers, Tacit Knowledge and the Art of Controlling Sound'
+  year: '2004'
+kuramochi_europe_1973:
+  author: 倉持亨、榎本勉、平田義一、浅野武夫、高井真一、早川通夫
+  container: ラジオ技術
+  title: ヨーロッパ・オーディオ・メーカーに学ぶ――スチューダー、ノイマン、EMTなどのメーカを見学
+  year: '1973'
+new-chin1968:
+  author: Chin Tsu-ling 金祖齡
+  container: 今天畫刊 Today Pictorial, no. 13, 10 October 1968
+  title: 一點希望 [A small hope]
+  year: 1968
+new-hungyifeng2006:
+  author: Hung Yi-feng 洪一峰
+  container: Proceedings, Sanchong City Office, p. 250
+  title: Oral statement at the 三重唱片座談會 [Sanchong record industry symposium], 22 March 2006
+  year: 2006
+new-jintianhuakan1968:
+  author: Today Pictorial 今天畫刊
+  container: 今天畫刊 Today Pictorial, no. 13, 10 October 1968, 28 pp.
+  title: '1956–1968 臺灣熱門音樂發展史 專題 [Special feature: A history of hot music in Taiwan, 1956–1968]'
+  year: 1968
+new-jones2020:
+  author: Jones, Andrew F.
+  container: 'Minneapolis: University of Minnesota Press (chap. 4, “First Records: A Case Study”)'
+  title: 'Circuit Listening: Chinese Popular Music in the Global 1960s'
+  year: 2020
+new-kohsiungchang1956:
+  author: Ko Hsiung-chang 柯雄昌
+  container: 聯合報 United Daily News, 4 September 1956, p. 6
+  title: 電影音樂的功用和配製 [The function and production of film music]
+  year: 1956
+new-kuo2001:
+  author: Kuo Tsung-shao 郭宗韶
+  container: Transcribed on the National Sun Yat-sen University BBS, board treasure/bass, 12 July 2001
+  title: Interview by 江力平 and 張楷之 for 華人 BASS 網 [Chinese Bass Net]
+  year: 2001
+new-lianhebao1956kupa:
+  author: United Daily News 聯合報 (staff report)
+  container: 聯合報 United Daily News, 21 August 1956, p. 6
+  title: '本省的爵士樂 鼓霸樂隊的成長 [Jazz in Taiwan: the growth of the Kupa Band]'
+  year: 1956
+new-lianhebao1969:
+  author: United Daily News 聯合報 (staff report)
+  container: 聯合報 United Daily News, 31 March 1969, p. 5
+  title: 各熱門音樂團體 定六日舉行 普普音樂會 [Hot-music groups to hold a Pop Music Concert on the 6th]
+  year: 1969
+new-lin1968:
+  author: Lin Chung-yuan 林種淵
+  container: 經濟日報 Economic Daily News, 9 December 1968, p. 7
+  title: 藝聲錄音唱片公司元旦開幕：剔除粗俗歌詞 精製佳片 [Yi Sheng Recording and Record Company opens on New Year's Day]
+  year: 1968
+new-linmiaozi2024:
+  author: Lin Miao-tzu 林妙子
+  container: T-Life (Taiwan High Speed Rail magazine), September 2024
+  title: '編曲也能表現不同時代「臺灣味」，劉清池透過臺語歌詮釋撫慰人心的感動 [Arrangement too can express the “Taiwan flavor” of different eras: Liu Ching-chih]'
+  url: https://tlife.thsrc.com.tw/en/article/5645
+  year: 2024
+new-lo1968:
+  author: Lo Lo-chia 羅珞珈
+  container: 今天畫刊 Today Pictorial, no. 13, 10 October 1968
+  title: 'HIT, HIT 打擊，打擊 [HIT, HIT: Strike, strike]'
+  year: 1968
+new-lusushang1954:
+  author: Lü Su-shang 呂訴上
+  container: 聯合報 United Daily News, 11 April 1954, p. 6
+  title: 臺灣早期的唱片 [Early records in Taiwan]
+  year: 1954
+new-penghungxing1955:
+  author: Peng Hung-hsing 彭虹星
+  container: 聯合報 United Daily News, 26 December 1955, p. 6
+  title: 漫談五十年來的臺灣樂壇 從最近的音樂活動 [Fifty years of Taiwan's music scene, from recent musical activities]
+  year: 1955
+new-shihchung1955a:
+  author: Shih Chung 石鐘
+  container: 聯合報 United Daily News, 13 August 1955, p. 6
+  title: '藝文圈內：必須改善的電影配音 寫給我們的製片家看 [Film dubbing must improve: for our producers]'
+  year: 1955
+new-tmcia-bandfire36:
+  author: Taiwan Music Culture International Exchange Association 臺灣音樂文化國際交流協會
+  container: Online interview series
+  title: '臺灣樂團編年史——樂團火 36：王家棟、白紀齡專訪 [A chronicle of Taiwanese bands, Band Fire no. 36: interview with Wang Chia-tung and Pai
+    Chi-ling]'
+  year: n.d.
+new-tsaitunghsiung2003:
+  author: Tsai Tung-hsiung 蔡棟雄 (ed.)
+  container: 'New Taipei: Sanchong District Office 三重區公所'
+  title: '戀戀三重埔：老照片說故事 [Sanchong remembered: stories from old photographs], entry on Lin Li-han'
+  year: 2003
+new-weng2015:
+  author: Weng Hsiao-liang 翁孝良
+  container: Personal blog, 19 April 2015
+  title: 簡歷 [Curriculum vitae]
+  url: https://brucewongtw.pixnet.net/blog/posts/12006614029
+  year: 2015
+new-zhou1967:
+  author: Chou Ming-hsiu 周銘秀
+  container: 經濟日報 Economic Daily News, 30 August 1967, p. 7
+  title: '唱片事業 薄利多銷 [The record business: thin margins, high volume]'
+  year: 1967
+pasma-paper:
+  author: Cheng, Ming; Chang, Yung-Chuan; Yang, Chien-Chang; Su, Li
+  container: Proceedings of the 27th International Society for Music Information Retrieval Conference (ISMIR), Abu Dhabi
+  title: 'Digital Existence as Ontological Intervention: Backstage Networks in Postwar Taiwanese Popular Music'
+  year: 2026
+pmdb-oralhistory:
+  author: Taipei Music Center 臺北流行音樂中心
+  container: Taiwan Popular Music Database 臺灣流行音樂資料庫
+  title: 資深音樂人口述歷史 [Oral History of Senior Musicians], filmed interviews with biographical summaries
+  url: https://pmdb.taipei/
+  year: 2010–
+shin_ho_2009_translation:
+  author: Shin, Hyunjoon and Ho, Tung-hung
+  container: 'Inter-Asia Cultural Studies 10(1): 83–102'
+  title: 'Translation of ‘America'' during the Early Cold War Period: A Comparative Study on the History of Popular Music
+    in South Korea and Taiwan'
+  year: '2009'
+sugano_1973_mixing:
+  author: 菅野沖彦、浅見啓明、平田義一
+  container: '放送技術 26(10): 151–161'
+  title: ステレオミクシング――その本質を探る
+  year: '1973'
+theberge2004network:
+  author: Theberge, Paul
+  container: 'Social Studies of Science 34(5): 759–781'
+  title: 'The network studio: Historical and technological paths to a new ideal in music making'
+  year: '2004'
+yamauchi2024phonomod:
+  author: Yamauchi, Fumitaka
+  container: 'In Phonographic Modernity: The Gramophone Industry and Music Genres in East and Southeast Asia, 1–46. Urbana,
+    IL: University of Illinois Press'
+  title: Phonographic Modernity and Audible History in East and Southeast Asia
+  year: '2024'
+何佳娜2017默會:
+  author: 何佳娜
+  container: Master's thesis, 國立臺灣大學圖書資訊學研究所
+  title: 臺灣華語流行音樂編曲者的默會知識與工作歷程
+  year: '2017'
+何東洪張釗維2000國語唱片:
+  author: 何東洪、張釗維
+  container: 'In 文化產業：文化生產的結構分析, 149–224. 臺北市: 遠流出版事業股份有限公司'
+  title: 戰後台灣「國語唱片工業」與音樂文化的發展軌跡：一個徵兆性的考察
+  year: '2000'
+凌紫鈞2018瓊瑤:
+  author: 凌紫鈞
+  container: Master's thesis, 國立臺灣大學音樂學研究所
+  title: 「讓我的歌把你留住」：瓊瑤電影音樂研究
+  year: '2018'
+孔雅玄2020正聲:
+  author: 孔雅玄
+  container: Master's thesis, 國立臺灣大學音樂學研究所
+  title: 正聲與政聲：正聲廣播公司歌唱節目《歌壇春秋》與《我為你歌唱》研究
+  year: '2020'
+張釗維1994誰在那邊:
+  author: 張釗維
+  container: '臺北市: 時報文化'
+  title: 誰在那邊唱自己的歌
+  year: '1994'
+李律2022不褪色的音符:
+  author: 李律
+  container: '臺北市: 臺北流行音樂中心'
+  title: 不褪色的音符：陳志遠的音樂宇宙
+  year: '2022'
+李明璁2015時代迴音:
+  author: 李明璁
+  container: '臺北市: 大塊文化'
+  title: 時代迴音：記憶中的台灣流行音樂
+  year: '2015'
+楊清雅2016呂金守:
+  author: 楊清雅
+  container: Master's thesis, 國立臺南藝術大學民族音樂學研究所
+  title: 1980年代前臺灣流行音樂的創作與流通——以呂金守為例
+  year: '2016'
+熊信淵2017熱門:
+  author: 熊信淵
+  container: Master's thesis, 國立臺灣大學臺灣文學研究所
+  title: 熱門、搖滾到民歌——臺灣青年的音樂世界（1950’s–1970’s）
+  year: '2017'
+王啟仲2022重探臺灣搖滾樂場景中:
+  author: 王啟仲
+  container: '文化研究(35): 191–230'
+  title: 重探臺灣搖滾樂場景中「樂手世界」的建制化：樂器行、校園社團、熱音賽與職業慣例（1980–1999）
+  year: '2022'
+王淳眉2016製作:
+  author: 王淳眉
+  container: Master's thesis, 國立交通大學社會與文化研究所
+  title: 製作類型：戰後國語通俗音樂「流行曲」與「搖滾樂」的系譜考察，從「滾石」、「飛碟」到「水晶」
+  year: '2016'
+程明2021聲響技術:
+  author: 程明
+  container: '民俗曲藝(213): 49–95'
+  title: 聲響技術的跨域交纏：臺灣國語流行音樂錄音室研究初探
+  url: https://www.airitilibrary.com/Article/Detail?DocID=10251383-202109-202110010018-202110010018-49-95
+  year: '2021'
+葉月瑜2000歌聲魅影:
+  author: 葉月瑜
+  container: '臺北市: 遠流'
+  title: 歌聲魅影：歌曲敘事與中文電影
+  year: '2000'
+許書維2019群星會:
+  author: 許書維
+  container: Master's thesis, 國立臺灣大學音樂學研究所
+  title: 「新」與「雅」：慎芝的《群星會》節目設計
+  year: '2019'
+詹孟桐2020美軍:
+  author: 詹孟桐
+  container: Master's thesis, 國立臺灣師範大學臺灣史研究所
+  title: 美軍在臺灣：冷戰下的日常生活（1951–1979）
+  year: '2020'
+馬世芳2015時空地圖:
+  author: 馬世芳、馬萱人
+  container: '臺北市: 中華音樂人交流協會'
+  title: 民歌四十時空地圖紀念專刊
+  year: '2015'
+黃奇智2014時代曲:
+  author: 黃奇智
+  container: '香港: 三聯書店'
+  title: 時代曲的流光歲月 1930–1970
+  year: '2014'
+黃東嶽2014李行:
+  author: 黃東嶽
+  container: Master's thesis, 國立臺灣大學音樂學研究所
+  title: 李行健康寫實電影中的音樂與音效研究
+  year: '2014'
+黃裕元2016歌唱王國:
+  author: 黃裕元
+  container: '高雄市: 高雄市政府文化局'
+  title: 歌唱王國的崛起：戰後臺語流行歌曲研究 1945–1971
+  year: '2016'

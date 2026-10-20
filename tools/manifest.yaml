@@ -1,0 +1,32 @@
+# 資產來源與處理模式。路徑相對於 sources_root。
+# mode：copy（原樣）、photo（JPEG，最寬 1600，RGBA 鋪白）、diagram（PNG，最寬 1600）、
+#       scan（JPEG，最寬 600，小字不可辨）、subtitles（複製 .srt 並轉 .vtt）、portrait 由 portraits 區塊處理。
+sources_root: ~/Developer
+numbers: my_papers/ISMIR_2026_PostwarTW/presentation/numbers.json
+
+assets:
+  # 論文與發表交付物
+  - {src: my_papers/ISMIR_2026_PostwarTW/latex/ISMIR2026_camera_ready.pdf,                    out: assets/pdf/ISMIR2026_459_paper.pdf,        mode: copy}
+  - {src: my_papers/ISMIR_2026_PostwarTW/presentation/deliverables/ISMIR2026_459_poster.pdf,  out: assets/pdf/ISMIR2026_459_poster.pdf,       mode: copy}
+  - {src: my_papers/ISMIR_2026_PostwarTW/presentation/deliverables/ISMIR2026_459_video.mp4,   out: assets/video/ISMIR2026_459_video.mp4,      mode: copy}
+  - {src: my_papers/ISMIR_2026_PostwarTW/presentation/deliverables/ISMIR2026_459_subtitles.srt, out: assets/video/ISMIR2026_459_subtitles.srt, mode: subtitles}
+  - {src: my_papers/ISMIR_2026_PostwarTW/presentation/deliverables/ISMIR2026_459_thumbnail.jpg, out: assets/video/ISMIR2026_459_thumbnail.jpg, mode: copy}
+  # 論文圖
+  - {src: my_papers/ISMIR_2026_PostwarTW/figures/datacleaning_flow.png,     out: assets/img/pipeline.png,            mode: diagram}
+  - {src: my_papers/ISMIR_2026_PostwarTW/figures/network_1957_1976_en.png,  out: assets/img/network_1957_1976.jpg,   mode: photo}
+  - {src: my_papers/ISMIR_2026_PostwarTW/figures/network_1957_1978_en.png,  out: assets/img/network_1957_1978.jpg,   mode: photo}
+  - {src: my_papers/ISMIR_2026_PostwarTW/figures/network_1957_1991_en.jpg,  out: assets/img/network_1957_1991.jpg,   mode: photo}
+  - {src: my_papers/ISMIR_2026_PostwarTW/figures/network_legend.png,        out: assets/img/network_legend.png,      mode: diagram}
+  - {src: my_papers/ISMIR_2026_PostwarTW/figures/temporal_curves_en.png,    out: assets/img/temporal_curves.png,     mode: diagram}
+  - {src: my_papers/ISMIR_2026_PostwarTW/figures/MERTYEAR.png,              out: assets/img/mert_year.png,           mode: diagram}
+  - {src: my_papers/ISMIR_2026_PostwarTW/figures/MERTwCHEN.png,             out: assets/img/mert_traditions.png,     mode: diagram}
+  - {src: my_papers/ISMIR_2026_PostwarTW/figures/MERTwoCHEN.png,            out: assets/img/mert_without_chen.png,   mode: diagram}
+  # 三張唱片掃描（示意，縮到讀不出小字；來源為林佩如私人收藏）
+  - {src: "ghouse/reread/verify/data/images/0848 鳳飛飛_風錄可朗_我是一片雲_2427533_page_02.jpg", out: assets/img/scan_0848_back.jpg,  mode: scan}
+  - {src: "ghouse/reread/verify/data/images/1198 蘇芮_飛碟_驀然回首_UR-8405-1_page_01.jpg",     out: assets/img/scan_1198_front.jpg, mode: scan}
+  - {src: "ghouse/reread/verify/data/images/0994 潘越雲_滾石_純情青春夢_RLP-025_page_01.jpg",   out: assets/img/scan_0994_front.jpg, mode: scan}
+
+portraits:
+  src_dir: extract_ohistory/data/avatars
+  out_dir: assets/img/people
+  from: content/people.yaml

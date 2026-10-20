@@ -1,0 +1,42 @@
+# 站台設定：站名、導覽、聯絡、頁尾、人物分組標籤、大檔白名單
+title: PASMA
+brand_sub: Private Archive of Scanned Music Artifacts
+tagline: Backstage networks in postwar Taiwanese popular music
+base_url: https://bkwmt.github.io/PASMA/
+
+nav:
+  - {file: index,   label: Overview}
+  - {file: history, label: Historical Context}
+  - {file: people,  label: Key People}
+  - {file: dataset, label: Dataset}
+  - {file: paper,   label: Paper}
+
+emails:
+  - hugowski@iis.sinica.edu.tw
+  - musik.hugowski@gmail.com
+
+footer: >-
+  PASMA is a research project of the Music and Culture Technology Lab, Institute of Information Science,
+  Academia Sinica, with the Graduate Institute of Musicology, National Taiwan University. Supported by the
+  Academia Sinica project “Innovative Applications of AI in Humanities and Sciences” (AS-IAIA-114-M06).
+  Text © 2026 the authors. The dataset is not publicly downloadable; researchers may request access by email.
+
+# 人物頁分組（順序即頁面順序）
+traditions:
+  pre: Pre-multitrack tradition
+  chen: Chen Chih-Yuan tradition
+  electone: Electone tradition
+  post: Post-Chen era
+
+portrait_notice: >-
+  Portraits and biographical data: Taipei Music Center, Taiwan Popular Music Database (pmdb.taipei), “Oral
+  History of Senior Musicians”. Reproduced here for non-commercial academic research under the database’s
+  intellectual property statement; all rights remain with the Center and the rights holders. Biographies are
+  paraphrased, not copied.
+
+# check.py：允許超過 10 MB 的檔案
+large_files:
+  - assets/pdf/ISMIR2026_459_paper.pdf
+  - assets/video/ISMIR2026_459_video.mp4
+# check.py：允許的外部資源網域（script/link/img 等）；留空＝一律不允許
+allowed_external: []

@@ -1,0 +1,290 @@
+{
+ "assets/pdf/ISMIR2026_459_paper.pdf": {
+  "src": "/Users/hugowski/Developer/my_papers/ISMIR_2026_PostwarTW/latex/ISMIR2026_camera_ready.pdf",
+  "sha256": "6cc1ee24b49999c095e5a810e5f1de4768e39d91249affce12b716513ed5371f",
+  "mode": "copy",
+  "built": "2026-10-20T21:57",
+  "bytes": 8476075
+ },
+ "assets/pdf/ISMIR2026_459_poster.pdf": {
+  "src": "/Users/hugowski/Developer/my_papers/ISMIR_2026_PostwarTW/presentation/deliverables/ISMIR2026_459_poster.pdf",
+  "sha256": "a55de0e3e1cd54a0672a7f6ddbde0140490a7f3e1b05eebedaea301b10610eb5",
+  "mode": "copy",
+  "built": "2026-10-20T21:57",
+  "bytes": 4232954
+ },
+ "assets/video/ISMIR2026_459_video.mp4": {
+  "src": "/Users/hugowski/Developer/my_papers/ISMIR_2026_PostwarTW/presentation/deliverables/ISMIR2026_459_video.mp4",
+  "sha256": "d15e0f37b8930ab505378bd609e43fe59c18c78f2dbf48ae79897af64024cca7",
+  "mode": "copy",
+  "built": "2026-10-20T21:57",
+  "bytes": 8258602
+ },
+ "assets/video/ISMIR2026_459_subtitles.srt": {
+  "src": "/Users/hugowski/Developer/my_papers/ISMIR_2026_PostwarTW/presentation/deliverables/ISMIR2026_459_subtitles.srt",
+  "sha256": "58e7b46e9719b0c435fd3dbf4ad05e3a37ac97a14c9898b122b6d75320d54af1",
+  "mode": "subtitles",
+  "built": "2026-10-20T21:57",
+  "bytes": 4064
+ },
+ "assets/video/ISMIR2026_459_thumbnail.jpg": {
+  "src": "/Users/hugowski/Developer/my_papers/ISMIR_2026_PostwarTW/presentation/deliverables/ISMIR2026_459_thumbnail.jpg",
+  "sha256": "fa8a82baa29c561ba12563788c43b5b6b782d522078623598e7c648193653bd4",
+  "mode": "copy",
+  "built": "2026-10-20T21:57",
+  "bytes": 269098
+ },
+ "assets/img/pipeline.png": {
+  "src": "/Users/hugowski/Developer/my_papers/ISMIR_2026_PostwarTW/figures/datacleaning_flow.png",
+  "sha256": "59f664c38b66b9e6ab802639619761f0100ab720d685d853a25fdc99aee05d1f",
+  "mode": "diagram",
+  "built": "2026-10-20T21:57",
+  "size": [
+   1600,
+   962
+  ],
+  "bytes": 481963
+ },
+ "assets/img/network_1957_1976.jpg": {
+  "src": "/Users/hugowski/Developer/my_papers/ISMIR_2026_PostwarTW/figures/network_1957_1976_en.png",
+  "sha256": "acc2a765799169c1b73946d8080a3af17c290247d6d2a61c1fdd143d452bef0a",
+  "mode": "photo",
+  "built": "2026-10-20T21:57",
+  "size": [
+   1600,
+   1038
+  ],
+  "bytes": 191720
+ },
+ "assets/img/network_1957_1978.jpg": {
+  "src": "/Users/hugowski/Developer/my_papers/ISMIR_2026_PostwarTW/figures/network_1957_1978_en.png",
+  "sha256": "e0f34239666cd68b7c8176e2f1543d6bcc52aabd5a759cebf0a3f9d39ecf38a1",
+  "mode": "photo",
+  "built": "2026-10-20T21:57",
+  "size": [
+   1600,
+   1044
+  ],
+  "bytes": 167976
+ },
+ "assets/img/network_1957_1991.jpg": {
+  "src": "/Users/hugowski/Developer/my_papers/ISMIR_2026_PostwarTW/figures/network_1957_1991_en.jpg",
+  "sha256": "1f90ef55d41d0af747ca8e046aac6825748110d2107c2d2fb7776a8a0b11491a",
+  "mode": "photo",
+  "built": "2026-10-20T21:57",
+  "size": [
+   1600,
+   1049
+  ],
+  "bytes": 281351
+ },
+ "assets/img/network_legend.png": {
+  "src": "/Users/hugowski/Developer/my_papers/ISMIR_2026_PostwarTW/figures/network_legend.png",
+  "sha256": "e16d5b7a31ce0e5602ebd691e8660f0a0d221ab87c6103f775ef7891631a6d2d",
+  "mode": "diagram",
+  "built": "2026-10-20T21:57",
+  "size": [
+   1600,
+   204
+  ],
+  "bytes": 119379
+ },
+ "assets/img/temporal_curves.png": {
+  "src": "/Users/hugowski/Developer/my_papers/ISMIR_2026_PostwarTW/figures/temporal_curves_en.png",
+  "sha256": "4f86c6a137b6b62c5b66f172e872ffdbb0996d90881a9c69285ae3d83b2c28b8",
+  "mode": "diagram",
+  "built": "2026-10-20T21:57",
+  "size": [
+   1600,
+   1247
+  ],
+  "bytes": 376904
+ },
+ "assets/img/mert_year.png": {
+  "src": "/Users/hugowski/Developer/my_papers/ISMIR_2026_PostwarTW/figures/MERTYEAR.png",
+  "sha256": "d354949ea71724ffb7246e1a199498bb61c2bd93498ea54980e515ea56f26308",
+  "mode": "diagram",
+  "built": "2026-10-20T21:57",
+  "size": [
+   1041,
+   633
+  ],
+  "bytes": 135217
+ },
+ "assets/img/mert_traditions.png": {
+  "src": "/Users/hugowski/Developer/my_papers/ISMIR_2026_PostwarTW/figures/MERTwCHEN.png",
+  "sha256": "f5a8af68c1a093998854053709cd5794b355db6f0f6e00a68cd29a5be9409ab0",
+  "mode": "diagram",
+  "built": "2026-10-20T21:57",
+  "size": [
+   1058,
+   653
+  ],
+  "bytes": 165486
+ },
+ "assets/img/mert_without_chen.png": {
+  "src": "/Users/hugowski/Developer/my_papers/ISMIR_2026_PostwarTW/figures/MERTwoCHEN.png",
+  "sha256": "d7c1c9febe83bcad70a090ccab9da081ac25087af963ad3ebeafb10b5a2451c6",
+  "mode": "diagram",
+  "built": "2026-10-20T21:57",
+  "size": [
+   1023,
+   633
+  ],
+  "bytes": 126108
+ },
+ "assets/img/scan_0848_back.jpg": {
+  "src": "/Users/hugowski/Developer/ghouse/reread/verify/data/images/0848 鳳飛飛_風錄可朗_我是一片雲_2427533_page_02.jpg",
+  "sha256": "41eebe2f7e549a3928651a8fc2b35e17f8d65e7a8d7db3b3dab813525ea59df5",
+  "mode": "scan",
+  "built": "2026-10-20T21:57",
+  "size": [
+   600,
+   571
+  ],
+  "bytes": 90509
+ },
+ "assets/img/scan_1198_front.jpg": {
+  "src": "/Users/hugowski/Developer/ghouse/reread/verify/data/images/1198 蘇芮_飛碟_驀然回首_UR-8405-1_page_01.jpg",
+  "sha256": "222e0a611a5ec8986fbbedaaba6f0b9220eb0a36cc2b41031572d31d61725697",
+  "mode": "scan",
+  "built": "2026-10-20T21:57",
+  "size": [
+   600,
+   568
+  ],
+  "bytes": 64060
+ },
+ "assets/img/scan_0994_front.jpg": {
+  "src": "/Users/hugowski/Developer/ghouse/reread/verify/data/images/0994 潘越雲_滾石_純情青春夢_RLP-025_page_01.jpg",
+  "sha256": "f4d7695847e4e78c93c1eef5a8b32413d2c3bfa99024961b805960b9c3e60e2a",
+  "mode": "scan",
+  "built": "2026-10-20T21:57",
+  "size": [
+   600,
+   566
+  ],
+  "bytes": 88066
+ },
+ "assets/img/people/weng-ching-hsi.jpg": {
+  "src": "/Users/hugowski/Developer/extract_ohistory/data/avatars/翁清溪.jpg",
+  "sha256": "42fd23d2bc58a1e5a157ec1eaeec7ebcdb9640d7e94eb7392cbfa461317c68fc",
+  "mode": "portrait",
+  "built": "2026-10-20T21:57",
+  "size": [
+   480,
+   480
+  ],
+  "bytes": 27719
+ },
+ "assets/img/people/chou-lan-ping.jpg": {
+  "src": "/Users/hugowski/Developer/extract_ohistory/data/avatars/周藍萍.jpg",
+  "sha256": "8b0cab721dfa42cde9ee92c072681cf75b23a9a3c16505fb29749148ebc0d4fc",
+  "mode": "portrait",
+  "built": "2026-10-20T21:57",
+  "size": [
+   480,
+   480
+  ],
+  "bytes": 30189
+ },
+ "assets/img/people/chen-chih-yuan.jpg": {
+  "src": "/Users/hugowski/Developer/extract_ohistory/data/avatars/陳志遠.jpg",
+  "sha256": "fbd4a8fb5dd0d08e8864903047ffeb28255647fd36ccbb613d7cb52739396d35",
+  "mode": "portrait",
+  "built": "2026-10-20T21:57",
+  "size": [
+   480,
+   480
+  ],
+  "bytes": 31163
+ },
+ "assets/img/people/chen-yu-li.jpg": {
+  "src": "/Users/hugowski/Developer/extract_ohistory/data/avatars/陳玉立.jpg",
+  "sha256": "30b7c7e9ed19c94aabd7e76ab98cf1b908ce727cd8a2f25d9447823ca5dd42de",
+  "mode": "portrait",
+  "built": "2026-10-20T21:57",
+  "size": [
+   480,
+   480
+  ],
+  "bytes": 42517
+ },
+ "assets/img/people/huang-jui-feng.jpg": {
+  "src": "/Users/hugowski/Developer/extract_ohistory/data/avatars/黃瑞豐.jpg",
+  "sha256": "ac900870e078d1a61bec78f5f69ad09ebd8c713dcba011fb565cae9458f77f02",
+  "mode": "portrait",
+  "built": "2026-10-20T21:57",
+  "size": [
+   480,
+   480
+  ],
+  "bytes": 36669
+ },
+ "assets/img/people/hsu-chung-hsien.jpg": {
+  "src": "/Users/hugowski/Developer/extract_ohistory/data/avatars/徐崇憲.jpg",
+  "sha256": "b2cdb01a4b59c53369c9f454e050f002f90535479e11d2d7ee2caaa1734cd349",
+  "mode": "portrait",
+  "built": "2026-10-20T21:57",
+  "size": [
+   300,
+   300
+  ],
+  "bytes": 22423
+ },
+ "assets/img/people/yeh-chui-ching.jpg": {
+  "src": "/Users/hugowski/Developer/extract_ohistory/data/avatars/葉垂青.jpg",
+  "sha256": "3b61577f9297c0f8e5e3a87bb9f0af351c91a74a91769f76c2f9fa5dfae1021f",
+  "mode": "portrait",
+  "built": "2026-10-20T21:57",
+  "size": [
+   480,
+   480
+  ],
+  "bytes": 34587
+ },
+ "assets/img/people/chi-ming-yang.jpg": {
+  "src": "/Users/hugowski/Developer/extract_ohistory/data/avatars/紀明陽.jpg",
+  "sha256": "16a9450e6adae3cee4a768e4cedb64a2a2070829c10b063f87aa114dcbcc49cd",
+  "mode": "portrait",
+  "built": "2026-10-20T21:57",
+  "size": [
+   480,
+   480
+  ],
+  "bytes": 53166
+ },
+ "assets/img/people/tu-ying.jpg": {
+  "src": "/Users/hugowski/Developer/extract_ohistory/data/avatars/屠穎.jpg",
+  "sha256": "577410216459a81df27fa6b28c4743f9a518f3c528075e9eb0daa6f0dfd48fd3",
+  "mode": "portrait",
+  "built": "2026-10-20T21:57",
+  "size": [
+   480,
+   480
+  ],
+  "bytes": 48806
+ },
+ "assets/img/people/huang-yun-ling.jpg": {
+  "src": "/Users/hugowski/Developer/extract_ohistory/data/avatars/黃韻玲.jpg",
+  "sha256": "71296fa0a131b65509f6318962a7a4412fc7145a8088df7716ad9d404a4f2a00",
+  "mode": "portrait",
+  "built": "2026-10-20T21:57",
+  "size": [
+   480,
+   503
+  ],
+  "bytes": 34910
+ },
+ "assets/img/people/tu-hui-yuan.jpg": {
+  "src": "/Users/hugowski/Developer/extract_ohistory/data/avatars/凃惠源.jpg",
+  "sha256": "9e73cc91e63fb19f512b684d3547d9521a6e219532ceef74c660cd46fa8f99eb",
+  "mode": "portrait",
+  "built": "2026-10-20T21:57",
+  "size": [
+   480,
+   480
+  ],
+  "bytes": 62214
+ }
+}
