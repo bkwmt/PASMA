@@ -77,7 +77,7 @@ The four arrangement traditions, and what they correspond to historically, are d
 
 ## Why it matters
 
-Encoding these workers into a database is an ontological intervention: it gives them a digital existence they never had. The claim is a reply to Born's critique of MIR's data infrastructures [@Born2020], read through the Social Construction of Technology [@Pinch1984], and it is set out point by point on [The Argument](argument.html) page. If MIR is to diversify its objects and its methods, it must ask not only what algorithms can optimize, but what histories they can restore.
+Encoding these workers into a database is an ontological intervention: it gives them a digital existence they never had. The claim is a reply to Born's critique of MIR's data infrastructures [@Born2020], read through the Social Construction of Technology [@Pinch1984], and it is set out point by point on the [Overview](index.html#a-reply-to-born). If MIR is to diversify its objects and its methods, it must ask not only what algorithms can optimize, but what histories they can restore.
 
 <h2 id="video">Three-minute video</h2>
 

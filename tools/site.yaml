@@ -6,7 +6,6 @@ base_url: https://bkwmt.github.io/PASMA/
 
 nav:
   - {file: index,   label: Overview}
-  - {file: argument, label: The Argument}
   - {file: history, label: Historical Context}
   - {file: people,  label: Key People}
   - {file: dataset, label: Dataset}
