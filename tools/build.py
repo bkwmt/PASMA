@@ -177,13 +177,14 @@ def people_cards(people: list[dict], site: dict) -> str:
             else:
                 avatar = f'<div class="avatar placeholder placeholder-{esc(t)}" aria-hidden="true"></div>'
             meta_bits = [b for b in (p.get("dates", ""), ", ".join(p.get("roles_en", []))) if b]
+            alias = f' <span class="alias">({esc(p["alias_en"])})</span>' if p.get("alias_en") else ""
             meta = " · ".join(esc(b) for b in meta_bits)
             in_study = f'<p class="in-study">{esc(p["role_in_study"])}</p>' if p.get("role_in_study") else ""
             link = (f'<p class="more"><a href="{esc(p["pmdb_url"])}" rel="noopener">Profile at Taiwan Popular Music Database →</a></p>'
                     if p.get("pmdb_url") else "")
             out.append(
                 f'<article class="person" id="{slug}">{avatar}'
-                f'<h3>{esc(p["name_en"])} <span class="zh">{esc(p["name_zh"])}</span></h3>'
+                f'<h3>{esc(p["name_en"])} <span class="zh">{esc(p["name_zh"])}</span>{alias}</h3>'
                 f'<p class="meta">{meta}</p><p class="bio">{esc(p["bio_en"]).strip()}</p>{in_study}{link}</article>'
             )
         out.append("</div>")

@@ -104,6 +104,7 @@ figcaption{font-size:.9rem;color:var(--muted);margin-top:.5em;line-height:1.5}
 .placeholder-post::after{background:var(--t-post)!important}
 .person h3{margin:.2em 0 .1em;font-size:1.1rem}
 .person h3 .zh{font-family:var(--sans);font-weight:400;color:var(--muted);font-size:.95rem;margin-left:6px}
+.person h3 .alias{display:block;font-family:var(--sans);font-weight:400;color:var(--muted);font-size:.86rem;margin-top:2px}
 .person .meta{font-size:.86rem;color:var(--muted);margin:0 0 .6em}
 .person .bio{font-size:.93rem;text-align:left;margin:.4em 0}
 .person .in-study{font-size:.86rem;text-align:left;color:var(--accent);margin:.5em 0}

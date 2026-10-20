@@ -1,5 +1,5 @@
 # Biographical data paraphrased from Taipei Music Center, Taiwan Popular Music Database (pmdb.taipei), accessed 2026-10-20, and from Cheng (2026) dissertation footnotes.
-# role_in_study：在本研究中的位置（網站作者填）；publish：false 則不上站。{鍵} 由 numbers.json 代入。
+# role_in_study：在本研究中的位置（網站作者填）；publish：false 則不上站。{鍵} 由 numbers.json 代入；alias_en：英文慣稱（可省）。
 
 - slug: weng-ching-hsi
   name_zh: 翁清溪
@@ -21,6 +21,7 @@
   role_in_study: Anchor of the Pre-multitrack tradition in Fig. 3; a big-band arranger of the pre-1978
     network (see Historical Context, Sections 1 and 6).
   publish: true
+  alias_en: Tony Weng
 - slug: chou-lan-ping
   name_zh: 周藍萍
   name_en: Chou Lan-ping
@@ -98,8 +99,9 @@
     in 1984 turned producer at Li Ge and Pai Pu Records. His 1986 production of "How Many Sunsets" for
     Pan Yueh-yun became his signature.
   notes: 兩來源皆未載生年，dates 留空。博論 ch05.tex 第 74 行註將他定位為陳志遠的鍵盤替手、屠穎口中「五人組」的核心樂手。
-  role_in_study: Chen Chih-Yuan's keyboard stand-in, counted among the core session players by studio
-    insiders; grouped with the Chen tradition in Fig. 3.
+  role_in_study: 'Chen Chih-Yuan''s protégé in the trade''s loose sense: his keyboard stand-in, who took
+    over some of his cases and whom studio insiders counted among the core session players; grouped with
+    the Chen tradition in Fig. 3.'
   publish: true
 - slug: huang-jui-feng
   name_zh: 黃瑞豐
@@ -120,6 +122,7 @@
   role_in_study: Drummer of the military-club cohort that appears as a separate cluster in the 1957–1978
     snapshot (Fig. 2b); member of the rhythm-section “Gang of Four”.
   publish: true
+  alias_en: Rich Huang
 - slug: hsu-chung-hsien
   name_zh: 徐崇憲
   name_en: Hsu Chung-hsien
@@ -241,6 +244,7 @@
   role_in_study: Post-Chen era sample in Fig. 3; singer-songwriter and arranger whose synthesizer-based
     records mark the late-1980s sound.
   publish: true
+  alias_en: Kay Huang
 - slug: tu-hui-yuan
   name_zh: 凃惠源
   name_en: Tu Hui-yuan

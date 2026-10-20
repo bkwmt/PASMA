@@ -39,11 +39,6 @@ Two methods that never saw each other's data point to the same year. The collabo
 <a class="btn ghost" href="paper.html#cite">Cite</a>
 </div>
 
-## At ISMIR 2026
-
-- **Poster session**, Tuesday 10 November 2026, 10:00–11:30 (Abu Dhabi time). Three-minute spotlight talk followed by the poster.
-- **Award Nominees Oral Session**, Wednesday 11 November 2026, 18:00–19:00. The paper is a Best Paper nominee.
-
 ## Access to the data
 
 PASMA is reconstructed from a private collection, and the scans are shared with us on the collector's terms. The dataset is therefore **not publicly downloadable**. Researchers who need the credit data for non-commercial research are welcome to write to us; see the [Dataset](dataset.html#access) page for what we can share and how.

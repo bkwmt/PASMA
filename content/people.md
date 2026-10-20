@@ -10,7 +10,7 @@ description: "Thirteen backstage figures behind the key nodes of the PASMA colla
 
 The paper anonymizes individual nodes (Arr. #1, Eng. #2) except for Chen Chih-Yuan 陳志遠. The poster adds portraits for the people who also appear in the Taipei Music Center's oral-history archive. Here they are named, grouped by the four arrangement traditions of Figure 3, with a short biography, their position in our analysis, and a link to their profile and filmed interview at the Taiwan Popular Music Database. Two of the thirteen have no profile in the database and are shown without a portrait.
 
-Names are romanized in the style conventional in Taiwan (surname first); some of these people are known in English by other names (Tony Weng, Rich Huang, Kay Huang). Biographies are paraphrased from the database and from the first author's dissertation, not copied.
+Names are romanized in the style conventional in Taiwan (surname first); English stage names, where they exist, are given alongside. Biographies are paraphrased from the database and from the first author's dissertation, not copied.
 
 <!-- people -->
 

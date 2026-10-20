@@ -133,6 +133,12 @@ class People(unittest.TestCase):
         self.assertNotIn("UNPUBLISHED-BIO", html)
         self.assertLess(html.index("Pre-multitrack"), html.index("Chen Chih-Yuan"))  # 依 traditions 順序分組
 
+    def test_alias_rendered(self):
+        people = [{"slug": "x", "name_zh": "某", "name_en": "X Y", "dates": "", "roles_en": [], "tradition": "chen",
+                   "portrait": "", "pmdb_url": "", "bio_en": "b", "alias_en": "Rich X", "publish": True}]
+        html = build.people_cards(people, self.SITE)
+        self.assertIn('<span class="alias">(Rich X)</span>', html)
+
 
 class Assets(unittest.TestCase):
     def test_photo_rgba_white_and_downscale(self):
