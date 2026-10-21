@@ -12,7 +12,9 @@ description: "PASMA, the Private Archive of Scanned Music Artifacts: a dataset r
 <p class="affil">Institute of Information Science, Academia Sinica · Graduate Institute of Musicology, National Taiwan University · Taipei, Taiwan</p>
 </section>
 
-The arrangers, session musicians and recording engineers who made the sound of postwar Taiwanese popular music appear, if at all, in small print on the sleeve. They have never been encoded in any database. **PASMA** (the Private Archive of Scanned Music Artifacts) writes them in: backstage credits reconstructed from the liner notes of Taiwanese vinyl records, modelled as a collaboration network and set against the sound of the records themselves.
+On a Taiwanese pop record from the 1960s, 70s or 80s, the singer's name and face are on the front of the sleeve. The people who made the sound are on the back, in small print, if at all: the arranger who wrote the parts, the session musicians who played them, the engineer who recorded them. Histories of Taiwanese pop are told through its singers. The names on the back were left out, and their credits have never been gathered into a dataset.
+
+**PASMA** (the Private Archive of Scanned Music Artifacts) is built from that small print: the liner notes of {唱片數} Taiwanese vinyl records released between {年份起} and {年份迄}. We transcribed who worked on each record and in what role, linked them into a network of who worked with whom, and compared that network with the sound of the recordings themselves. For these workers, being entered into a dataset is the first time they exist as data at all. That is what the title of our ISMIR 2026 paper means by digital existence.
 
 <div class="stats">
 <div class="stat"><div class="n">{唱片數}</div><div class="k">vinyl liner notes</div></div>
