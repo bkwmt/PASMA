@@ -3,7 +3,7 @@
 
 - slug: weng-ching-hsi
   name_zh: 翁清溪
-  name_en: Weng Ching-hsi
+  name_en: WENG Ching-hsi
   dates: 1936–2012
   roles_en:
   - composer
@@ -24,7 +24,7 @@
   alias_en: Tony Weng
 - slug: chou-lan-ping
   name_zh: 周藍萍
-  name_en: Chou Lan-ping
+  name_en: CHOU Lan-ping
   dates: 1925–1971
   roles_en:
   - composer
@@ -43,7 +43,7 @@
   publish: true
 - slug: lin-li-han
   name_zh: 林禮涵
-  name_en: Lin Li-han
+  name_en: LIN Li-han
   dates: 1912–1979
   roles_en:
   - arranger
@@ -55,7 +55,7 @@
   bio_en: A native of Wanhua in Taipei, Lin was a rare jazz pianist and violinist in the Taiwanese scene
     of his day, playing at the US military clubs and the Broadcasting Corporation of China, and had already
     worked for Victor Records under Japanese rule. After the war he settled in Sanchong and arranged for
-    virtually every label, including Hung Yi-feng's "Old Love Lingers" and Wu Chin-huai's Asia Records
+    virtually every label, including HUNG Yi-feng's "Old Love Lingers" and WU Chin-huai's Asia Records
     series, deciding the orchestration alone and conducting the band in single-take sessions.
   notes: 不在 pmdb 資料庫、無肖像；資料全部來自博論 ch03.tex 第 100 行註（引蔡棟雄編《戀戀三重埔》）與 ch04.tex 第 202 行註。
   role_in_study: 'The single arranger of the pre-multitrack period: where early records name an arranger
@@ -63,7 +63,7 @@
   publish: true
 - slug: chen-chih-yuan
   name_zh: 陳志遠
-  name_en: Chen Chih-Yuan
+  name_en: CHEN Chih-yuan
   dates: 1950–2011
   roles_en:
   - arranger
@@ -73,7 +73,7 @@
   portrait: 陳志遠.jpg
   pmdb_url: https://pmdb.taipei/xchisvideo/cont?xsmsid=0P077652866224904029&roletpye=&sid=0P119549495804320340
   bio_en: Born in Taoyuan, Chen left school after junior high to play keyboards, passing through Su Rui's
-    band and Weng Ching-hsi's Tony Big Band, where Weng steered him toward session and arranging work.
+    band and WENG Ching-hsi's Tony Big Band, where Weng steered him toward session and arranging work.
     His arrangements for the "Chinese Modern Folk Song" and Golden Rhythm Award albums from 1976 made
     him the central arranger of Mandarin pop in the 1980s; he later produced in-house for UFO Records
     and co-founded Forward Music in 1995. Golden Melody Special Contribution Award, 2008.
@@ -84,7 +84,7 @@
   publish: true
 - slug: chen-yu-li
   name_zh: 陳玉立
-  name_en: Chen Yu-li
+  name_en: CHEN Yu-li
   dates: ''
   roles_en:
   - keyboardist
@@ -95,17 +95,17 @@
   pmdb_url: https://pmdb.taipei/xchisvideo/cont?xsmsid=0P077652866224904029&roletpye=&sid=0P127642584548180239
   bio_en: Chen taught himself piano while working odd jobs at a dance hall as a teenager, and at twenty
     joined the house band of Taipei's Tsai Shen Hotel. He became a session pianist and arranger for Lee
-    Tai-hsiang, Weng Ching-hsi and Chen Chih-yuan, often standing in for the latter on keyboards, and
+    Tai-hsiang, WENG Ching-hsi and CHEN Chih-yuan, often standing in for the latter on keyboards, and
     in 1984 turned producer at Li Ge and Pai Pu Records. His 1986 production of "How Many Sunsets" for
-    Pan Yueh-yun became his signature.
+    PAN Yueh-yun became his signature.
   notes: 兩來源皆未載生年，dates 留空。博論 ch05.tex 第 74 行註將他定位為陳志遠的鍵盤替手、屠穎口中「五人組」的核心樂手。
-  role_in_study: 'Chen Chih-Yuan''s protégé in the trade''s loose sense: his keyboard stand-in, who took
+  role_in_study: 'CHEN Chih-yuan''s protégé in the trade''s loose sense: his keyboard stand-in, who took
     over some of his cases and whom studio insiders counted among the core session players; grouped with
     the Chen tradition in Fig. 3.'
   publish: true
 - slug: huang-jui-feng
   name_zh: 黃瑞豐
-  name_en: Huang Jui-feng
+  name_en: HUANG Jui-feng
   dates: b. 1950
   roles_en:
   - drummer
@@ -125,7 +125,7 @@
   alias_en: Rich Huang
 - slug: hsu-chung-hsien
   name_zh: 徐崇憲
-  name_en: Hsu Chung-hsien
+  name_en: HSU Chung-hsien
   dates: b. 1948
   roles_en:
   - recording engineer
@@ -134,7 +134,7 @@
   portrait: 徐崇憲.jpg
   pmdb_url: https://pmdb.taipei/xchisvideo/cont?xsmsid=0P077652866224904029&roletpye=&sid=0P119545079288554324
   bio_en: After military service Hsu joined Li Feng Records in Taipei in 1971 and was trained as an engineer
-    by Yao Hou-sheng, cutting his first album for Liu Wen-cheng in 1972. When the label's owner left Taiwan
+    by YAO Hou-sheng, cutting his first album for LIU Wen-cheng in 1972. When the label's owner left Taiwan
     in 1976 he bought the studio's equipment and ran it himself, formally as Kuan Yin, though the trade
     kept calling it Li Feng. Through the 1980s he engineered landmark albums such as "The Olive Tree",
     "Zhi Hu Zhe Ye" and "Blue Sky Every Day".
@@ -144,7 +144,7 @@
   publish: true
 - slug: yeh-chui-ching
   name_zh: 葉垂青
-  name_en: Yeh Chui-ching
+  name_en: YEH Chui-ching
   dates: b. 1952
   roles_en:
   - studio founder
@@ -156,7 +156,7 @@
   bio_en: Trained in engineering at Taipei Institute of Technology, Yeh entered the family's record-pressing
     business in 1976 and from 1977 operated Taiwan's only Neumann VMS-70 cutting lathe, mastering most
     of the island's LPs. Dissatisfied with the tapes he received, he founded Platinum Studio in 1980 with
-    a Swiss-imported 24-track system, advised by Japanese engineer Hirata Giichi. He was founding chair
+    a Swiss-imported 24-track system, advised by Japanese engineer HIRATA Giichi. He was founding chair
     of the AES Taiwan Section (2018) and received the Traditional Arts Golden Melody Special Award in
     2019.
   notes: 生年兩來源一致（1952–）；博論的傳記註在 ch01.tex 第 239 行，ch04.tex 第 39–59 行有完整敘事（平田義一一節）。「垂」依 Wade–Giles 作 Chui，若本人有慣用英文拼法請改用。
@@ -165,7 +165,7 @@
   publish: true
 - slug: liu-ching-chih
   name_zh: 劉清池
-  name_en: Liu Ching-chih
+  name_en: LIU Ching-chih
   dates: b. 1943
   roles_en:
   - arranger
@@ -175,7 +175,7 @@
   portrait: ''
   pmdb_url: ''
   bio_en: A self-taught musician from Wanhua in Taipei, Liu entered the record business at 23 as a guitarist
-    cutting instrumental albums for Ling Ling Records, then learned arranging inside Lin Li-han's studio
+    cutting instrumental albums for Ling Ling Records, then learned arranging inside LIN Li-han's studio
     band. From the 1980s he was the central arranger of Taiwanese-language pop, building a low-cost, Electone-
     and MIDI-driven sound for hits such as "Love to Fight Will Win", while his own easy-listening albums
     sold in enormous numbers. Golden Melody Special Contribution Award, 2024.
@@ -186,7 +186,7 @@
   publish: true
 - slug: chi-ming-yang
   name_zh: 紀明陽
-  name_en: Chi Ming-yang
+  name_en: CHI Ming-yang
   dates: b. 1950
   roles_en:
   - arranger
@@ -198,7 +198,7 @@
   bio_en: Born in Chiayi, Chi learned saxophone, trumpet and drums as a schoolboy and was already playing
     dance halls in junior high. After naval service and a spell in a trading company he joined a record
     label as a full-time songwriter and arranger, and over nearly four decades wrote and arranged for
-    leading Taiwanese-language singers such as Huang Yi-ling, Hung Jung-hung, Chiang Hui and Yeh Chi-tien,
+    leading Taiwanese-language singers such as HUANG Yi-ling, HUNG Jung-hung, Chiang Hui and YEH Chi-tien,
     several of whose albums broke sales records.
   notes: 博論無傳記註；ch05.tex 第 408 行將他與林國雄、劉清池並列為「臺語電子琴編曲圈」代表，ch04.tex 第 449 行註載其全期網絡中介中心性排名第 17。資料庫提及與其子合作，依規則未寫入。
   role_in_study: Electone-tradition arranger; the poster links the Electone region of the MERT panel to
@@ -206,7 +206,7 @@
   publish: true
 - slug: tu-ying
   name_zh: 屠穎
-  name_en: Tu Ying
+  name_en: TU Ying
   dates: 1963–2025
   roles_en:
   - arranger
@@ -216,8 +216,8 @@
   portrait: 屠穎.jpg
   pmdb_url: https://pmdb.taipei/xchisvideo/cont?xsmsid=0P077652866224904029&roletpye=&sid=0P122356356072178395
   bio_en: A Taipei pianist who turned professional after high school, Tu joined Pai Pu Records in 1983
-    as a member of the band Blue Angels and began learning MIDI arranging there. In 1987 Weng Hsiao-liang
-    brought him to Dian Jiang Records as a staff arranger; Huang Shu-chun's "Wild Geese Over Cold Waters"
+    as a member of the band Blue Angels and began learning MIDI arranging there. In 1987 WENG Hsiao-liang
+    brought him to Dian Jiang Records as a staff arranger; HUANG Shu-chun's "Wild Geese Over Cold Waters"
     (1989) and a 1990 Golden Melody Award for arrangement made his name. He arranged over a thousand songs,
     including Faye Wong's "Sky".
   notes: 卒年衝突：博論 ch04.tex 第 289 行註作 1963–2025，資料庫作 1963–（在世）。依指示採博論，請確認。
@@ -226,7 +226,7 @@
   publish: true
 - slug: huang-yun-ling
   name_zh: 黃韻玲
-  name_en: Huang Yun-ling
+  name_en: HUANG Yun-ling
   dates: b. 1964
   roles_en:
   - singer-songwriter
@@ -247,7 +247,7 @@
   alias_en: Kay Huang
 - slug: tu-hui-yuan
   name_zh: 凃惠源
-  name_en: Tu Hui-yuan
+  name_en: TU Hui-yuan
   dates: ''
   roles_en:
   - keyboardist
@@ -258,7 +258,7 @@
   pmdb_url: https://pmdb.taipei/xchisvideo/cont?xsmsid=0P077652866224904029&roletpye=&sid=0P119520840725381861
   bio_en: Tu grew up on piano and electronic organ and as a schoolboy accompanied the vocal group Four
     Little Ones at the 1979 Golden Rhythm Award. In the 1980s he played keyboards in the bands of Hsueh
-    Yueh, Harlem Yu and Chyi Chin before turning to studio arranging; Pan Yueh-yun's "Am I the One You
+    Yueh, Harlem Yu and Chyi Chin before turning to studio arranging; PAN Yueh-yun's "Am I the One You
     Love Most" (1989), which he arranged throughout, won the first Golden Melody best album award. He
     later wrote A-mei's "Cutting Love" and "Listen to the Sea".
   notes: 兩來源皆未載生年，dates 留空。姓氏用字：資料庫、肖像檔名與博論 ch05.tex 第 54 行註皆作「凃」，但 ch05.tex 第 408 行作「涂」，網站宜統一為「凃」。

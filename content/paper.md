@@ -63,7 +63,7 @@ Role enrichment among the top {橋接者前N} bridging actors (lowest Burt const
 | Vocalist | {表1_歌手} |
 | Performing artist | {表1_表演藝人} |
 
-Lyricists and singers fall below parity; arrangers, players, backing vocalists and engineers take the bridges. Singing stars were never the connective tissue of this industry. The single strongest bridge across the whole period is the arranger Chen Chih-Yuan 陳志遠, credited on **{陳志遠_專輯數}** albums and connected to **{陳志遠_合作者數}** collaborators, with the lowest constraint score in the network ({陳志遠_constraint} against {第二名_constraint} for the second-ranked actor). His career is told on the [Historical Context](history.html#5-chen-chih-yuan-and-the-segmented-arrangement-19781991) page.
+Lyricists and singers fall below parity; arrangers, players, backing vocalists and engineers take the bridges. Singing stars were never the connective tissue of this industry. The single strongest bridge across the whole period is the arranger CHEN Chih-yuan 陳志遠,[^names] credited on **{陳志遠_專輯數}** albums and connected to **{陳志遠_合作者數}** collaborators, with the lowest constraint score in the network ({陳志遠_constraint} against {第二名_constraint} for the second-ranked actor). His career is told on the [Historical Context](history.html#5-chen-chih-yuan-and-the-segmented-arrangement-19781991) page.
 
 ## The sound follows the structure
 
@@ -71,8 +71,8 @@ Because PASMA does not include the recordings, we assembled a separate corpus of
 
 <div class="fig-row">
 <figure><img src="assets/img/mert_year.png" alt="UMAP projection of MERT embeddings coloured by period" loading="lazy"><figcaption>(a) Coloured by period. Recordings before and after 1978 occupy largely distinct regions.</figcaption></figure>
-<figure><img src="assets/img/mert_traditions.png" alt="UMAP projection coloured by arrangement tradition" loading="lazy"><figcaption>(b) Coloured by arrangement tradition. Three traditions form their own regions; Chen Chih-Yuan's works spread across the whole space.</figcaption></figure>
-<figure><img src="assets/img/mert_without_chen.png" alt="UMAP projection recomputed without Chen Chih-Yuan" loading="lazy"><figcaption>(c) Recomputed without Chen Chih-Yuan and his protégé. The remaining traditions separate more sharply.</figcaption></figure>
+<figure><img src="assets/img/mert_traditions.png" alt="UMAP projection coloured by arrangement tradition" loading="lazy"><figcaption>(b) Coloured by arrangement tradition. Three traditions form their own regions; CHEN Chih-yuan's works spread across the whole space.</figcaption></figure>
+<figure><img src="assets/img/mert_without_chen.png" alt="UMAP projection recomputed without CHEN Chih-yuan" loading="lazy"><figcaption>(c) Recomputed without CHEN Chih-yuan and his protégé. The remaining traditions separate more sharply.</figcaption></figure>
 </div>
 
 The four arrangement traditions, and what they correspond to historically, are described in [Historical Context, Section 6](history.html#6-four-arrangement-traditions).
@@ -107,8 +107,10 @@ To cite the dataset, cite the paper and add “PASMA (Private Archive of Scanned
 
 ## Erratum
 
-Section 4.2 of the camera-ready paper gives Chen Chih-Yuan's dates as 1941–2011. His dates are **1950–2011** (Taipei Music Center, Taiwan Popular Music Database; Cheng 2026). The error does not affect any result.
+Section 4.2 of the camera-ready paper gives CHEN Chih-yuan's dates as 1941–2011. His dates are **1950–2011** (Taipei Music Center, Taiwan Popular Music Database; Cheng 2026). The error does not affect any result.
 
 ## Acknowledgments
 
 This work was supported by the Academia Sinica project “Innovative Applications of AI in Humanities and Sciences” (No. AS-IAIA-114-M06). We are deeply grateful to Pei-Ju Lin, founder of the Taipei music space *Sounds Good*, for generously providing scanned images of her private vinyl collection, without which the construction of PASMA would not have been possible.
+
+[^names]: Chinese personal names are written surname first, as they are spoken, with the surname in capitals and the characters at first mention. The paper's own labels, such as the Chen Chih-Yuan tradition, keep its spelling.
