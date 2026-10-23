@@ -6,7 +6,9 @@ description: "Abstract, figures, tables, poster, video and citation for the ISMI
 
 # The Paper
 
-<p class="lead">Ming Cheng, Yung-Chuan Chang, Chien-Chang Yang and Li Su. <em>Digital Existence as Ontological Intervention: Backstage Networks in Postwar Taiwanese Popular Music.</em> Proceedings of the 27th International Society for Music Information Retrieval Conference (ISMIR 2026), Abu Dhabi, 8–12 November 2026. Best Paper nominee.</p>
+<p class="lead">Ming Cheng, Yung-Chuan Chang, Chien-Chang Yang and Li Su. <em>Digital Existence as Ontological Intervention: Backstage Networks in Postwar Taiwanese Popular Music.</em> Proceedings of the 27th International Society for Music Information Retrieval Conference (ISMIR 2026), Abu Dhabi, 8–12 November 2026.</p>
+
+Nominated for the ISMIR 2026 Best Paper Award.
 
 <div class="btns">
 <a class="btn" href="assets/pdf/ISMIR2026_459_paper.pdf">Paper (PDF, 8 MB)</a>

@@ -1,14 +1,14 @@
 ---
 title: Historical Context
 nav: Historical Context
-description: The historical background of postwar Taiwanese popular music that the ISMIR 2026 paper on PASMA could not fit into six pages, with sources, written to answer the reviewers' request for socio-cultural grounding.
+description: The historical background of postwar Taiwanese popular music that the ISMIR 2026 paper on PASMA could not fit into six pages, with sources.
 ---
 
 # Historical Context
 
 <p class="lead">What the paper's networks and embeddings are measuring, in the words of the people who made the records.</p>
 
-Our ISMIR 2026 paper reports a structural break in the backstage collaboration network of Taiwanese popular music around 1978, and reads it against the industrial adoption of multitrack recording, the American military club circuit, the arranger Chen Chih-Yuan 陳志遠, and four arrangement traditions. A reviewer rightly noted that a six-page paper could not supply the historical and bibliographic grounding these readings deserve. This page supplies it. Each section opens with the sentence from the paper that it grounds, then gives the historical account and the sources.
+Our ISMIR 2026 paper reports a structural break in the backstage collaboration network of Taiwanese popular music around 1978, and reads it against the industrial adoption of multitrack recording, the American military club circuit, the arranger Chen Chih-Yuan 陳志遠, and four arrangement traditions. Six pages could not supply the historical and bibliographic grounding these readings deserve. This page supplies it. Each section opens with the sentence from the paper that it grounds, then gives the historical account and the sources.
 
 The account is drawn from the first author's doctoral dissertation, *The Closure and Loosening of the Recording Studio: Behind-the-Scenes as Method for Narrating Postwar Taiwanese Popular Music History* (National Taiwan University, 2026, in Chinese) [@cheng2026dissertation], and from the sources it assembles: the Taipei Music Center's oral-history archive of senior musicians, contemporary newspapers and trade magazines, Japanese audio-engineering journals, and the Taiwanese and English scholarship listed in the references. Oral testimony is paraphrased, never quoted verbatim. Personal names are given in the romanization conventional in Taiwan, with Chinese characters at first mention. Multitrack recording is described throughout as *adopted and standardized*, because, as Section 4 shows, the equipment preceded the workflow by several years.
 

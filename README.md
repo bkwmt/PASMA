@@ -2,7 +2,7 @@
 
 Companion website of the ISMIR 2026 paper *Digital Existence as Ontological Intervention: Backstage Networks in Postwar Taiwanese Popular Music* (Cheng, Chang, Yang and Su), published at **https://bkwmt.github.io/PASMA/**.
 
-PASMA (the Private Archive of Scanned Music Artifacts) is a dataset of backstage credits reconstructed from the liner notes of 1,122 Taiwanese vinyl records (1957–1991). The dataset itself is **not** in this repository and is not publicly downloadable; researchers may request access by email (see the Dataset page). This repository holds only the static site: historical context written to answer the paper's reviewers, a page on the key people in the network, the dataset documentation, and the paper with its poster and video.
+PASMA (the Private Archive of Scanned Music Artifacts) is a dataset of backstage credits reconstructed from the liner notes of 1,122 Taiwanese vinyl records (1957–1991). The dataset itself is **not** in this repository and is not publicly downloadable; researchers may request access by email (see the Dataset page). This repository holds only the static site: the historical context the six-page paper could not accommodate, a page on the key people in the network, the dataset documentation, and the paper with its poster and video.
 
 ## Layout
 

@@ -5,7 +5,7 @@ description: "PASMA, the Private Archive of Scanned Music Artifacts: a dataset r
 ---
 
 <section class="hero">
-<p class="kicker">ISMIR 2026 · Abu Dhabi · Best Paper nominee</p>
+<p class="kicker">ISMIR 2026 · Abu Dhabi</p>
 <h1>Digital Existence as Ontological Intervention</h1>
 <p class="sub">Backstage Networks in Postwar Taiwanese Popular Music</p>
 <p class="authors">Ming Cheng · Yung-Chuan Chang · Chien-Chang Yang · Li Su</p>
