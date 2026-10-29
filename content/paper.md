@@ -67,7 +67,7 @@ Lyricists and singers fall below parity; arrangers, players, backing vocalists a
 
 ## The sound follows the structure
 
-Because PASMA does not include the recordings, we assembled a separate corpus of {MERT曲數} recordings ({MERT年份}), removed the vocals with Hybrid Demucs [@Defossez2022hybrid], embedded the instrumental stems with MERT-330M [@MERT2023] and projected the embeddings with UMAP [@McInnes2018]. MERT was given no dates. Neither PASMA nor the MERT corpus includes or releases audio; the twenty stems below are listening examples added to this companion site, not part of either dataset.
+Because PASMA does not include the recordings, we assembled a separate corpus of {MERT曲數} recordings ({MERT年份}), removed the vocals with Hybrid Demucs [@Defossez2022hybrid], embedded the instrumental stems with MERT-330M [@MERT2023] and projected the embeddings with UMAP [@McInnes2018]. MERT was given no dates. No audio is redistributed.
 
 <div class="fig-row">
 <figure><img src="assets/img/mert_year.png" alt="UMAP projection of MERT embeddings coloured by period" loading="lazy"><figcaption>(a) Coloured by period. Recordings before and after 1978 occupy largely distinct regions.</figcaption></figure>
