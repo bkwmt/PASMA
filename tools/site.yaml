@@ -4,6 +4,14 @@ brand_sub: Private Archive of Scanned Music Artifacts
 tagline: Backstage networks in postwar Taiwanese popular music
 base_url: https://bkwmt.github.io/PASMA/
 
+# 網站版本：論文已發表不再改動，網站與論文的差異由版本號承擔（頁尾顯示；Paper 頁 <!-- versions --> 列出紀錄）。
+version: "1.2"
+version_date: 30 October 2026
+versions:
+  - {v: "1.0", date: 20 October 2026, note: "Site launched with the paper, poster and video, the Historical Context, Key People and Dataset pages."}
+  - {v: "1.1", date: 23 October 2026, note: "Historical Context shortened to what grounds the paper; personal names written surname first; note on the word muhou."}
+  - {v: "1.2", date: 30 October 2026, note: "Listening examples added to the Paper page: twenty vocal-separated instrumental stems, five from each arrangement tradition. The paper itself redistributes no audio."}
+
 nav:
   - {file: index,   label: Overview}
   - {file: history, label: Historical Context}

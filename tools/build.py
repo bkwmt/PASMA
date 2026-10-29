@@ -194,6 +194,30 @@ def people_cards(people: list[dict], site: dict) -> str:
     return "\n".join(out)
 
 
+# ---------------------------------------------------------------- 版本
+def site_version(site: dict) -> str:
+    """頁尾的網站版本字串：「Companion site v1.2 (30 October 2026) · 」；site.yaml 無 version 則為空。"""
+    v = site.get("version")
+    if not v:
+        return ""
+    esc = htmlmod.escape
+    date = f' ({esc(str(site["version_date"]))})' if site.get("version_date") else ""
+    return f'Companion site v{esc(str(v))}{date} · '
+
+
+def versions_block(site: dict) -> str:
+    """Paper 頁 <!-- versions -->：網站版本紀錄，最新在前；論文本身不變，差異由版本承擔。"""
+    esc = htmlmod.escape
+    items = site.get("versions") or []
+    if not items:
+        return ""
+    out = ['<ul class="versions">']
+    for it in sorted(items, key=lambda x: str(x["v"]), reverse=True):
+        out.append(f'<li><b>v{esc(str(it["v"]))}</b> <span class="muted">({esc(str(it["date"]))})</span> {esc(it["note"])}</li>')
+    out.append("</ul>")
+    return "\n".join(out)
+
+
 # ---------------------------------------------------------------- 頁面外殼
 def page(meta: dict, body_html: str, site: dict, active: str, build_time: str = "") -> str:
     esc = htmlmod.escape
@@ -228,7 +252,7 @@ def page(meta: dict, body_html: str, site: dict, active: str, build_time: str = 
 <footer class="site-foot"><div class="wrap">
 <p>{site.get("footer", "")}</p>
 <p>Contact: {emails}</p>
-<p class="small">Built {esc(build_time[:10])}.</p>
+<p class="small">{site_version(site)}Built {esc(build_time[:10])}.</p>
 </div></footer>
 </body>
 </html>
@@ -407,6 +431,7 @@ def sync_assets(manifest: dict, people: list[dict], out_root: Path, lock: dict) 
 # ---------------------------------------------------------------- 建置
 PEOPLE_MARK = "<!-- people -->"
 LISTEN_MARK = "<!-- listen -->"
+VERSIONS_MARK = "<!-- versions -->"
 
 
 def render_page(name: str, site: dict, numbers: dict, refs: dict, people: list[dict], build_time: str,
@@ -419,6 +444,8 @@ def render_page(name: str, site: dict, numbers: dict, refs: dict, people: list[d
         if not listen:
             raise BuildError(f"{name}.md has {LISTEN_MARK} but manifest has no listen section")
         body = body.replace(LISTEN_MARK, "\n" + listen_block(listen, site) + "\n")
+    if VERSIONS_MARK in body:
+        body = body.replace(VERSIONS_MARK, "\n" + versions_block(site) + "\n")
     body = substitute_numbers(body, numbers)   # 人物卡的 bio／role_in_study 也可用 {鍵}
     body, used = render_citations(body, refs)
     html = md_to_html(body) + references_html(used, refs)

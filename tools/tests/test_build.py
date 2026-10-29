@@ -207,3 +207,18 @@ class Listen(unittest.TestCase):
                                  {"sources_root": "/tmp"})
         self.assertEqual([j[1] for j in jobs], ["assets/audio/pre_1.mp3", "assets/audio/pre_2.mp3"])
         self.assertTrue(all(j[2] == "audio" for j in jobs))
+
+
+class Versions(unittest.TestCase):
+    SITE = {"version": "1.2", "version_date": "30 October 2026",
+            "versions": [{"v": "1.0", "date": "20 Oct", "note": "Launch."}, {"v": "1.2", "date": "30 Oct", "note": "Audio <added>."}]}
+
+    def test_footer_string(self):
+        self.assertEqual(build.site_version(self.SITE), "Companion site v1.2 (30 October 2026) · ")
+        self.assertEqual(build.site_version({}), "")
+
+    def test_block_newest_first_and_escaped(self):
+        html = build.versions_block(self.SITE)
+        self.assertLess(html.index("v1.2"), html.index("v1.0"))
+        self.assertIn("Audio &lt;added&gt;.", html)
+        self.assertEqual(build.versions_block({}), "")

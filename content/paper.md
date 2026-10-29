@@ -67,7 +67,7 @@ Lyricists and singers fall below parity; arrangers, players, backing vocalists a
 
 ## The sound follows the structure
 
-Because PASMA does not include the recordings, we assembled a separate corpus of {MERT曲數} recordings ({MERT年份}), removed the vocals with Hybrid Demucs [@Defossez2022hybrid], embedded the instrumental stems with MERT-330M [@MERT2023] and projected the embeddings with UMAP [@McInnes2018]. MERT was given no dates. No audio is redistributed.
+Because PASMA does not include the recordings, we assembled a separate corpus of {MERT曲數} recordings ({MERT年份}), removed the vocals with Hybrid Demucs [@Defossez2022hybrid], embedded the instrumental stems with MERT-330M [@MERT2023] and projected the embeddings with UMAP [@McInnes2018]. MERT was given no dates. The paper redistributes no audio. The twenty stems below were added in version 1.2 of this companion site as listening examples; they are not part of PASMA or of the MERT corpus.
 
 <div class="fig-row">
 <figure><img src="assets/img/mert_year.png" alt="UMAP projection of MERT embeddings coloured by period" loading="lazy"><figcaption>(a) Coloured by period. Recordings before and after 1978 occupy largely distinct regions.</figcaption></figure>
@@ -118,3 +118,9 @@ Section 4.2 of the camera-ready paper gives CHEN Chih-yuan's dates as 1941–201
 This work was supported by the Academia Sinica project “Innovative Applications of AI in Humanities and Sciences” (No. AS-IAIA-114-M06). We are deeply grateful to Pei-Ju Lin, founder of the Taipei music space *Sounds Good*, for generously providing scanned images of her private vinyl collection, without which the construction of PASMA would not have been possible.
 
 [^names]: Chinese personal names are written surname first, as they are spoken, with the surname in capitals and the characters at first mention. The paper's own labels, such as the Chen Chih-Yuan tradition, keep its spelling.
+
+## Companion site versions
+
+The paper is fixed as published. Anything on this site that goes beyond it is recorded here by version; the current version is shown in the footer of every page.
+
+<!-- versions -->
