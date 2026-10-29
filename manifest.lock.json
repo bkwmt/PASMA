@@ -286,5 +286,285 @@
    480
   ],
   "bytes": 62214
+ },
+ "assets/audio/pre_1.mp3": {
+  "src": "/Users/hugowski/Developer/ghouse/mp3_downloads/instrumentals/1 before standard/林禮涵_1964_98_伴奏.mp3",
+  "sha256": "0330775bf6bc9cbf99f10937048d780c8ec38d28aaf9cf5bf290d8c79064aaac",
+  "mode": "audio",
+  "built": "2026-10-30T03:15",
+  "seconds": 201.5,
+  "gain_db": 6.63,
+  "params": {
+   "bitrate": "160k",
+   "target_lufs": -16,
+   "excerpt": null
+  },
+  "bytes": 4030738
+ },
+ "assets/audio/pre_2.mp3": {
+  "src": "/Users/hugowski/Developer/ghouse/mp3_downloads/instrumentals/1 before standard/許石_1967_90_伴奏.mp3",
+  "sha256": "b8a4e3d2fe8bc2a32d234988184e78ebc6a9bb7dfb9af536c07a56de44b77665",
+  "mode": "audio",
+  "built": "2026-10-30T03:15",
+  "seconds": 144.5,
+  "gain_db": 0.72,
+  "params": {
+   "bitrate": "160k",
+   "target_lufs": -16,
+   "excerpt": null
+  },
+  "bytes": 2891800
+ },
+ "assets/audio/pre_3.mp3": {
+  "src": "/Users/hugowski/Developer/ghouse/mp3_downloads/instrumentals/1 before standard/翁清溪_1969_98_伴奏.mp3",
+  "sha256": "0d25cac9ee57773131aa14d3cfa0c19e83f0453b84f0a559b7d062ae9bb93112",
+  "mode": "audio",
+  "built": "2026-10-30T03:15",
+  "seconds": 133.1,
+  "gain_db": -1.0,
+  "params": {
+   "bitrate": "160k",
+   "target_lufs": -16,
+   "excerpt": null
+  },
+  "bytes": 2664012
+ },
+ "assets/audio/pre_4.mp3": {
+  "src": "/Users/hugowski/Developer/ghouse/mp3_downloads/instrumentals/1 before standard/許石_1970安平追想曲(楊麗花)_伴奏.mp3",
+  "sha256": "584d3705e3c7072c710eadda1f2f42e71a75c6f1af3598c80bc76422649b2e9c",
+  "mode": "audio",
+  "built": "2026-10-30T03:15",
+  "seconds": 243.1,
+  "gain_db": -0.22,
+  "params": {
+   "bitrate": "160k",
+   "target_lufs": -16,
+   "excerpt": null
+  },
+  "bytes": 4863000
+ },
+ "assets/audio/pre_5.mp3": {
+  "src": "/Users/hugowski/Developer/ghouse/mp3_downloads/instrumentals/1 before standard/彩雲飛A02_伴奏.mp3",
+  "sha256": "221c420fa7b56dcf9c0134c8228261789251af6b7c69df4578272bec24680074",
+  "mode": "audio",
+  "built": "2026-10-30T03:15",
+  "seconds": 203.2,
+  "gain_db": -1.2,
+  "params": {
+   "bitrate": "160k",
+   "target_lufs": -16,
+   "excerpt": null
+  },
+  "bytes": 4064175
+ },
+ "assets/audio/chen_1.mp3": {
+  "src": "/Users/hugowski/Developer/ghouse/mp3_downloads/instrumentals/2 chens/陳志遠_1979_100_伴奏.mp3",
+  "sha256": "8c9ca5fd769375111460e8ebdbb5d32d7ecd46775b2a638b34b5c1a60b05fb35",
+  "mode": "audio",
+  "built": "2026-10-30T03:16",
+  "seconds": 225.1,
+  "gain_db": -1.68,
+  "params": {
+   "bitrate": "160k",
+   "target_lufs": -16,
+   "excerpt": null
+  },
+  "bytes": 4503032
+ },
+ "assets/audio/chen_2.mp3": {
+  "src": "/Users/hugowski/Developer/ghouse/mp3_downloads/instrumentals/2 chens/陳志遠_1979_98_伴奏.mp3",
+  "sha256": "454f11359cae5c417029de6f64bdcb6e9d78d47e449715bc11c53111f8e22735",
+  "mode": "audio",
+  "built": "2026-10-30T03:16",
+  "seconds": 238.7,
+  "gain_db": -0.94,
+  "params": {
+   "bitrate": "160k",
+   "target_lufs": -16,
+   "excerpt": null
+  },
+  "bytes": 4775228
+ },
+ "assets/audio/chen_3.mp3": {
+  "src": "/Users/hugowski/Developer/ghouse/mp3_downloads/instrumentals/2 chens/陳玉立_1985_98_伴奏.mp3",
+  "sha256": "a2bb86f9109b74c9d6d45255a9e0dc052f4a4f31afc0bef3fd30cb9afd26e897",
+  "mode": "audio",
+  "built": "2026-10-30T03:16",
+  "seconds": 186.0,
+  "gain_db": 1.81,
+  "params": {
+   "bitrate": "160k",
+   "target_lufs": -16,
+   "excerpt": null
+  },
+  "bytes": 3720926
+ },
+ "assets/audio/chen_4.mp3": {
+  "src": "/Users/hugowski/Developer/ghouse/mp3_downloads/instrumentals/2 chens/陳玉立_1986_98_伴奏.mp3",
+  "sha256": "5259fe40e9463ea54ce0caf6f7140ddc9b326dd689287e94c900bf459f8a0d10",
+  "mode": "audio",
+  "built": "2026-10-30T03:16",
+  "seconds": 259.0,
+  "gain_db": 2.2,
+  "params": {
+   "bitrate": "160k",
+   "target_lufs": -16,
+   "excerpt": null
+  },
+  "bytes": 5180126
+ },
+ "assets/audio/chen_5.mp3": {
+  "src": "/Users/hugowski/Developer/ghouse/mp3_downloads/instrumentals/2 chens/陳志遠_1986_99_伴奏.mp3",
+  "sha256": "a974ac9cbc9ac2007a1a572bda2f9bcb8aa8420fdd926d2c0f3f1db4f67a2368",
+  "mode": "audio",
+  "built": "2026-10-30T03:16",
+  "seconds": 221.8,
+  "gain_db": 1.18,
+  "params": {
+   "bitrate": "160k",
+   "target_lufs": -16,
+   "excerpt": null
+  },
+  "bytes": 4437204
+ },
+ "assets/audio/electone_1.mp3": {
+  "src": "/Users/hugowski/Developer/ghouse/mp3_downloads/instrumentals/3 electone/林國雄_1978_98_伴奏.mp3",
+  "sha256": "3516ba0a32b8d771377e9758fe1441d201df6f5f99041e0c10bd44b88748b1ce",
+  "mode": "audio",
+  "built": "2026-10-30T03:17",
+  "seconds": 184.1,
+  "gain_db": -1.01,
+  "params": {
+   "bitrate": "160k",
+   "target_lufs": -16,
+   "excerpt": null
+  },
+  "bytes": 3683310
+ },
+ "assets/audio/electone_2.mp3": {
+  "src": "/Users/hugowski/Developer/ghouse/mp3_downloads/instrumentals/3 electone/林國雄_1980_100_伴奏.mp3",
+  "sha256": "21942e961a0d8ef2506d11a58405e16dd4b83ba42e41b950da34a5ed2dcb6811",
+  "mode": "audio",
+  "built": "2026-10-30T03:17",
+  "seconds": 159.8,
+  "gain_db": -0.34,
+  "params": {
+   "bitrate": "160k",
+   "target_lufs": -16,
+   "excerpt": null
+  },
+  "bytes": 3196910
+ },
+ "assets/audio/electone_3.mp3": {
+  "src": "/Users/hugowski/Developer/ghouse/mp3_downloads/instrumentals/3 electone/劉清池_1981_98_伴奏.mp3",
+  "sha256": "eff89b7b5cb34482ed97278755c409bd5b3eca0240eddcb8c2cd4fc63d159953",
+  "mode": "audio",
+  "built": "2026-10-30T03:17",
+  "seconds": 188.2,
+  "gain_db": -1.23,
+  "params": {
+   "bitrate": "160k",
+   "target_lufs": -16,
+   "excerpt": null
+  },
+  "bytes": 3764289
+ },
+ "assets/audio/electone_4.mp3": {
+  "src": "/Users/hugowski/Developer/ghouse/mp3_downloads/instrumentals/3 electone/可愛彼個人 [BEnXd7IyIls]_伴奏.mp3",
+  "sha256": "ebf4ada0c5281b595867ec1c9d2acb63d9f72003861bb37721ccaf2e5d218302",
+  "mode": "audio",
+  "built": "2026-10-30T03:17",
+  "seconds": 202.3,
+  "gain_db": 0.28,
+  "params": {
+   "bitrate": "160k",
+   "target_lufs": -16,
+   "excerpt": null
+  },
+  "bytes": 4046412
+ },
+ "assets/audio/electone_5.mp3": {
+  "src": "/Users/hugowski/Developer/ghouse/mp3_downloads/instrumentals/3 electone/紀明陽_1987_98_伴奏.mp3",
+  "sha256": "663810f54e7155c38bf63fa2b0279c6f942e1b2bb050ba1920c1a1db9463d39c",
+  "mode": "audio",
+  "built": "2026-10-30T03:17",
+  "seconds": 210.3,
+  "gain_db": -0.95,
+  "params": {
+   "bitrate": "160k",
+   "target_lufs": -16,
+   "excerpt": null
+  },
+  "bytes": 4207326
+ },
+ "assets/audio/post_1.mp3": {
+  "src": "/Users/hugowski/Developer/ghouse/mp3_downloads/instrumentals/4 post chen/黃韻玲_1988_98_伴奏.mp3",
+  "sha256": "64d2e53da107aedc372ab91e14973fb32918a48c52875ff2fefa9134e8c95869",
+  "mode": "audio",
+  "built": "2026-10-30T03:17",
+  "seconds": 258.8,
+  "gain_db": -0.38,
+  "params": {
+   "bitrate": "160k",
+   "target_lufs": -16,
+   "excerpt": null
+  },
+  "bytes": 5176992
+ },
+ "assets/audio/post_2.mp3": {
+  "src": "/Users/hugowski/Developer/ghouse/mp3_downloads/instrumentals/4 post chen/屠穎_1989_98_伴奏.mp3",
+  "sha256": "c637946d2f392fefa648daa054fbf8d99d5dd1b1537e3b6b8e7ca92247f5d4cf",
+  "mode": "audio",
+  "built": "2026-10-30T03:17",
+  "seconds": 274.4,
+  "gain_db": -0.79,
+  "params": {
+   "bitrate": "160k",
+   "target_lufs": -16,
+   "excerpt": null
+  },
+  "bytes": 5488371
+ },
+ "assets/audio/post_3.mp3": {
+  "src": "/Users/hugowski/Developer/ghouse/mp3_downloads/instrumentals/4 post chen/涂惠源_1989_96_伴奏.mp3",
+  "sha256": "969c772830215353c192004ceadf6d98e12dad0bc9674fd6818795354d3b4ff1",
+  "mode": "audio",
+  "built": "2026-10-30T03:18",
+  "seconds": 301.8,
+  "gain_db": 12.78,
+  "params": {
+   "bitrate": "160k",
+   "target_lufs": -16,
+   "excerpt": null
+  },
+  "bytes": 6037465
+ },
+ "assets/audio/post_4.mp3": {
+  "src": "/Users/hugowski/Developer/ghouse/mp3_downloads/instrumentals/4 post chen/王豫民_1992_98_伴奏.mp3",
+  "sha256": "677cb5f82e393f9cca4a076b4302eadc0001ede32bee5894d38b47f5f92abaf9",
+  "mode": "audio",
+  "built": "2026-10-30T03:18",
+  "seconds": 275.5,
+  "gain_db": -0.91,
+  "params": {
+   "bitrate": "160k",
+   "target_lufs": -16,
+   "excerpt": null
+  },
+  "bytes": 5511359
+ },
+ "assets/audio/post_5.mp3": {
+  "src": "/Users/hugowski/Developer/ghouse/mp3_downloads/instrumentals/4 post chen/鍾興民_1997_98_伴奏.mp3",
+  "sha256": "3803cd5c0932d247f3c06fce28926c6c52a9def0b4e389124cc3f81c065f99a6",
+  "mode": "audio",
+  "built": "2026-10-30T03:18",
+  "seconds": 241.7,
+  "gain_db": -0.91,
+  "params": {
+   "bitrate": "160k",
+   "target_lufs": -16,
+   "excerpt": null
+  },
+  "bytes": 4835310
  }
 }

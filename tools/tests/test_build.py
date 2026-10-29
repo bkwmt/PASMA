@@ -173,3 +173,37 @@ class Assets(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+class Listen(unittest.TestCase):
+    SITE = {"traditions": {"pre": "Pre-multitrack tradition", "chen": "Chen Chih-Yuan tradition", "post": "Post-Chen era"}}
+    CFG = {"out_dir": "assets/audio", "intro": "Intro.", "notice": "Rights <notice>.",
+           "tracks": {"pre": ["a.mp3", "b.mp3"], "chen": ["c.mp3"]}}
+
+    def test_block_numbers_only_and_order(self):
+        html = build.listen_block(self.CFG, self.SITE)
+        self.assertIn('id="listen"', html)
+        self.assertIn('src="assets/audio/pre_1.mp3"', html)
+        self.assertIn('src="assets/audio/pre_2.mp3"', html)
+        self.assertIn('src="assets/audio/chen_1.mp3"', html)
+        self.assertNotIn("a.mp3", html)                       # 來源檔名不外露
+        self.assertNotIn("Post-Chen", html)                   # 沒有曲目的傳統不出現
+        self.assertIn('preload="none"', html)
+        self.assertIn("Rights &lt;notice&gt;.", html)
+        self.assertLess(html.index("Pre-multitrack"), html.index("Chen Chih-Yuan"))
+
+    def test_ffmpeg_args_full_and_excerpt(self):
+        full = build.ffmpeg_args(Path("/s.mp3"), Path("/o.mp3"), "160k", -3.2, None)
+        self.assertNotIn("-ss", full)
+        self.assertIn("volume=-3.20dB", " ".join(full))
+        self.assertIn("-map_metadata", full)
+        cut = build.ffmpeg_args(Path("/s.mp3"), Path("/o.mp3"), "128k", None, {"start": 12, "seconds": 30})
+        self.assertEqual(cut[cut.index("-ss") + 1], "12")
+        self.assertEqual(cut[cut.index("-t") + 1], "30.0")
+        self.assertIn("afade=t=out:st=29.00:d=1", " ".join(cut))
+        self.assertNotIn("volume", " ".join(cut))
+
+    def test_jobs_named_by_tradition_and_index(self):
+        jobs = build.listen_jobs({"src_dir": "x", "out_dir": "assets/audio", "tracks": {"pre": ["p/a.mp3", "p/b.mp3"]}},
+                                 {"sources_root": "/tmp"})
+        self.assertEqual([j[1] for j in jobs], ["assets/audio/pre_1.mp3", "assets/audio/pre_2.mp3"])
+        self.assertTrue(all(j[2] == "audio" for j in jobs))

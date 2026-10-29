@@ -1,6 +1,7 @@
 # 資產來源與處理模式。路徑相對於 sources_root。
 # mode：copy（原樣）、photo（JPEG，最寬 1600，RGBA 鋪白）、diagram（PNG，最寬 1600）、
-#       scan（JPEG，最寬 600，小字不可辨）、subtitles（複製 .srt 並轉 .vtt）、portrait 由 portraits 區塊處理。
+#       scan（JPEG，最寬 600，小字不可辨）、subtitles（複製 .srt 並轉 .vtt）、portrait 由 portraits 區塊處理、
+#       audio 由 listen 區塊處理（ffmpeg 轉 mp3，線性增益對齊響度；excerpt 為 null 即整首）。
 sources_root: ~/Developer
 numbers: my_papers/ISMIR_2026_PostwarTW/presentation/numbers.json
 
@@ -30,3 +31,45 @@ portraits:
   src_dir: extract_ohistory/data/avatars
   out_dir: assets/img/people
   from: content/people.yaml
+
+# 試聽（Paper 頁 <!-- listen -->）：去人聲伴奏，每傳統五首，輸出只帶代碼與編號（pre_1.mp3…）。
+# 來源整首檔不進 repo。excerpt: null → 整首（使用者 2026-10-30 決定）；要改片段寫 {start: 0, seconds: 30}。
+listen:
+  src_dir: ghouse/mp3_downloads/instrumentals
+  out_dir: assets/audio
+  bitrate: 160k
+  target_lufs: -16
+  excerpt: null
+  intro: >-
+    Twenty of the instrumental stems that MERT heard, five from each tradition, with the vocals removed by Hybrid Demucs.
+    They are numbered rather than named: what matters here is the sound of each tradition, not the song. Levels are
+    aligned so that the traditions can be compared; nothing else has been changed.
+  notice: >-
+    These are commercial recordings with the vocals removed, reproduced on this companion site as listening examples for
+    Figure 3. The arrangers are credited on the Key People page; all rights in the recordings and the compositions remain
+    with their holders. We will remove any recording on request (hugowski@iis.sinica.edu.tw).
+  tracks:
+    pre:
+      - "1 before standard/林禮涵_1964_98_伴奏.mp3"
+      - "1 before standard/許石_1967_90_伴奏.mp3"
+      - "1 before standard/翁清溪_1969_98_伴奏.mp3"
+      - "1 before standard/許石_1970安平追想曲(楊麗花)_伴奏.mp3"
+      - "1 before standard/彩雲飛A02_伴奏.mp3"
+    chen:
+      - "2 chens/陳志遠_1979_100_伴奏.mp3"
+      - "2 chens/陳志遠_1979_98_伴奏.mp3"
+      - "2 chens/陳玉立_1985_98_伴奏.mp3"
+      - "2 chens/陳玉立_1986_98_伴奏.mp3"
+      - "2 chens/陳志遠_1986_99_伴奏.mp3"
+    electone:
+      - "3 electone/林國雄_1978_98_伴奏.mp3"
+      - "3 electone/林國雄_1980_100_伴奏.mp3"
+      - "3 electone/劉清池_1981_98_伴奏.mp3"
+      - "3 electone/可愛彼個人 [BEnXd7IyIls]_伴奏.mp3"
+      - "3 electone/紀明陽_1987_98_伴奏.mp3"
+    post:
+      - "4 post chen/黃韻玲_1988_98_伴奏.mp3"
+      - "4 post chen/屠穎_1989_98_伴奏.mp3"
+      - "4 post chen/涂惠源_1989_96_伴奏.mp3"
+      - "4 post chen/王豫民_1992_98_伴奏.mp3"
+      - "4 post chen/鍾興民_1997_98_伴奏.mp3"

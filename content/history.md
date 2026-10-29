@@ -97,6 +97,8 @@ The producer 製作人 title was still unfamiliar around 1980; LI Shou-chuan 李
 
 ![Figure 3b of the paper: UMAP projection of MERT embeddings of vocal-separated recordings, coloured by arrangement tradition. Each point is a recording.](assets/img/mert_traditions.png)
 
+Five recordings from each tradition, with the vocals removed, can be heard on the [Paper page](paper.html#listen).
+
 **Pre-multitrack tradition.** Arrangers who worked before multitrack was standardized, when a band recorded together and arranging was coupled to conducting. The MERT sample represents it with Lin Li-han, HSU Shih 許石 and WENG Ching-hsi 翁清溪, big-band arrangers of the generation described in Section 1 [@cheng2026dissertation].
 
 **Chen Chih-Yuan tradition.** The Mandarin core arranging position at the moment of closure around 1979, represented by Chen and his protégé CHEN Yu-li 陳玉立, the keyboardist who stood in for him when he was overbooked. "Protégé" is used in the loose sense the Taiwanese trade gives it: a younger musician who takes over some of a senior's cases is spoken of as that senior's student, and the senior is addressed as 老師 (teacher), without any formal apprenticeship [@cheng2026dissertation].

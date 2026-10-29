@@ -6,7 +6,7 @@
       ＋ presentation/numbers.json（論文數字，{鍵} 代入，不手打數字）
       ＋ content/references.yaml（書目，[@鍵] 引用）
       ＋ content/people.yaml（人物卡資料）
-      ＋ tools/manifest.yaml（圖、PDF、影片、頭像的來源與處理模式）
+      ＋ tools/manifest.yaml（圖、PDF、影片、頭像、試聽音訊的來源與處理模式）
       → 站根 *.html ＋ assets/ ＋ manifest.lock.json
 
 用法：.venv/bin/python tools/build.py [--out DIR] [--no-assets]
@@ -20,6 +20,7 @@ import html as htmlmod
 import json
 import re
 import shutil
+import subprocess
 import sys
 from pathlib import Path
 
@@ -271,6 +272,88 @@ def srt_to_vtt(srt: str) -> str:
     return "WEBVTT\n\n" + body + "\n"
 
 
+# ---------------------------------------------------------------- 音訊（試聽）
+def ffmpeg_args(src: Path, out: Path, bitrate: str, gain_db: float | None, excerpt: dict | None) -> list[str]:
+    """組 ffmpeg 參數（純函式，可測）。gain_db 為線性增益；excerpt={start, seconds} 時切片並淡入淡出。"""
+    args = ["ffmpeg", "-y", "-v", "error"]
+    filters = []
+    if excerpt:
+        args += ["-ss", str(excerpt.get("start", 0))]
+    args += ["-i", str(src)]
+    if excerpt:
+        sec = float(excerpt["seconds"])
+        args += ["-t", str(sec)]
+        filters += ["afade=t=in:d=1", f"afade=t=out:st={sec - 1:.2f}:d=1"]
+    if gain_db is not None and abs(gain_db) > 0.05:
+        filters.insert(0, f"volume={gain_db:.2f}dB")
+    if filters:
+        args += ["-af", ",".join(filters)]
+    args += ["-vn", "-map_metadata", "-1", "-codec:a", "libmp3lame", "-b:a", bitrate, str(out)]
+    return args
+
+
+def measure_loudness(src: Path) -> tuple[float, float, float]:
+    """以 loudnorm 量測：回傳 (integrated LUFS, true peak dBTP, duration s)。"""
+    r = subprocess.run(["ffmpeg", "-v", "info", "-i", str(src), "-af", "loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json",
+                        "-f", "null", "-"], capture_output=True, text=True)
+    m = re.search(r"\{[^{}]*\"input_i\"[^{}]*\}", r.stderr, re.S)
+    if not m:
+        raise BuildError(f"loudness measurement failed for {src.name}: {r.stderr[-400:]}")
+    j = json.loads(m.group(0))
+    d = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "default=nw=1:nk=1", str(src)],
+                       capture_output=True, text=True)
+    return float(j["input_i"]), float(j["input_tp"]), float(d.stdout.strip() or 0)
+
+
+def transcode_audio(src: Path, out: Path, cfg: dict) -> dict:
+    """整首或片段轉成 mp3；線性增益把整體響度拉到 target_lufs，真峰值不超過 -1 dBTP。回傳 lock 用的描述。"""
+    if not shutil.which("ffmpeg") or not shutil.which("ffprobe"):
+        raise BuildError("ffmpeg/ffprobe not found; needed for listen tracks")
+    target = cfg.get("target_lufs")
+    gain = None
+    lufs, tp, dur = measure_loudness(src)
+    if target is not None:
+        gain = min(float(target) - lufs, -1.0 - tp)
+    excerpt = cfg.get("excerpt") or None
+    subprocess.run(ffmpeg_args(src, out, cfg.get("bitrate", "160k"), gain, excerpt), check=True)
+    return {"seconds": round(float(excerpt["seconds"]) if excerpt else dur, 1), "gain_db": round(gain, 2) if gain is not None else None,
+            "params": {"bitrate": cfg.get("bitrate", "160k"), "target_lufs": target, "excerpt": excerpt}}
+
+
+def listen_jobs(listen: dict, manifest: dict) -> list[tuple[Path, str, str]]:
+    """manifest.listen.tracks → [(src, out_rel, "audio")]，輸出檔名只帶傳統代碼與編號。"""
+    src_dir = resolve_src(manifest, listen["src_dir"])
+    jobs = []
+    for t, files in (listen.get("tracks") or {}).items():
+        for i, f in enumerate(files, 1):
+            jobs.append((src_dir / f, f'{listen["out_dir"]}/{t}_{i}.mp3', "audio"))
+    return jobs
+
+
+def listen_block(listen: dict, site: dict) -> str:
+    """Paper 頁的試聽區塊：每個傳統一欄，曲目只給編號。"""
+    esc = htmlmod.escape
+    traditions: dict = site.get("traditions", {})
+    out = [f'<section class="listen" id="listen">']
+    if listen.get("intro"):
+        out.append(f'<p>{esc(listen["intro"])}</p>')
+    out.append('<div class="listen-grid">')
+    for t, label in traditions.items():
+        files = (listen.get("tracks") or {}).get(t) or []
+        if not files:
+            continue
+        out.append(f'<div class="listen-group t-{esc(t)}"><h3>{esc(label)}</h3>')
+        for i in range(1, len(files) + 1):
+            out.append(f'<div class="track"><span class="n">{i}</span>'
+                       f'<audio controls preload="none" src="{esc(listen["out_dir"])}/{esc(t)}_{i}.mp3"></audio></div>')
+        out.append("</div>")
+    out.append("</div>")
+    if listen.get("notice"):
+        out.append(f'<p class="notice">{esc(listen["notice"])}</p>')
+    out.append("</section>")
+    return "\n".join(out)
+
+
 def resolve_src(manifest: dict, rel: str) -> Path:
     root = Path(manifest.get("sources_root", "~")).expanduser()
     return (root / rel).resolve()
@@ -288,13 +371,18 @@ def sync_assets(manifest: dict, people: list[dict], out_root: Path, lock: dict) 
         for p in people:
             if p.get("publish", True) and p.get("portrait"):
                 jobs.append((src_dir / p["portrait"], f'{pt["out_dir"]}/{p["slug"]}.jpg', "portrait"))
+    listen = manifest.get("listen") or {}
+    if listen:
+        jobs += listen_jobs(listen, manifest)
+    audio_params = {"bitrate": listen.get("bitrate", "160k"), "target_lufs": listen.get("target_lufs"), "excerpt": listen.get("excerpt") or None}
     for src, out_rel, mode in jobs:
         if not src.exists():
             raise BuildError(f"asset source missing: {src}")
         out = out_root / out_rel
         digest = sha256(src)
         prev = lock.get(out_rel)
-        if prev and prev.get("sha256") == digest and out.exists() and (mode != "subtitles" or out.with_suffix(".vtt").exists()):
+        same_params = mode != "audio" or (prev or {}).get("params") == audio_params
+        if prev and prev.get("sha256") == digest and out.exists() and same_params and (mode != "subtitles" or out.with_suffix(".vtt").exists()):
             new_lock[out_rel] = prev
             continue
         out.parent.mkdir(parents=True, exist_ok=True)
@@ -306,6 +394,8 @@ def sync_assets(manifest: dict, people: list[dict], out_root: Path, lock: dict) 
             out.with_suffix(".vtt").write_text(srt_to_vtt(src.read_text(encoding="utf-8")), encoding="utf-8")
         elif mode in MAX_WIDTH:
             entry["size"] = list(process_image(src, out, mode))
+        elif mode == "audio":
+            entry.update(transcode_audio(src, out, listen))
         else:
             raise BuildError(f"unknown asset mode {mode} for {out_rel}")
         entry["bytes"] = out.stat().st_size
@@ -316,13 +406,19 @@ def sync_assets(manifest: dict, people: list[dict], out_root: Path, lock: dict) 
 
 # ---------------------------------------------------------------- 建置
 PEOPLE_MARK = "<!-- people -->"
+LISTEN_MARK = "<!-- listen -->"
 
 
-def render_page(name: str, site: dict, numbers: dict, refs: dict, people: list[dict], build_time: str) -> str:
+def render_page(name: str, site: dict, numbers: dict, refs: dict, people: list[dict], build_time: str,
+                listen: dict | None = None) -> str:
     text = (CONTENT / f"{name}.md").read_text(encoding="utf-8")
     meta, body = split_front_matter(text)
     if PEOPLE_MARK in body:
         body = body.replace(PEOPLE_MARK, "\n" + people_cards(people, site) + "\n")
+    if LISTEN_MARK in body:
+        if not listen:
+            raise BuildError(f"{name}.md has {LISTEN_MARK} but manifest has no listen section")
+        body = body.replace(LISTEN_MARK, "\n" + listen_block(listen, site) + "\n")
     body = substitute_numbers(body, numbers)   # 人物卡的 bio／role_in_study 也可用 {鍵}
     body, used = render_citations(body, refs)
     html = md_to_html(body) + references_html(used, refs)
@@ -353,7 +449,7 @@ def build(out_root: Path | None = None, assets: bool = True) -> Path:
 
     for item in site["nav"]:
         name = item["file"]
-        html = render_page(name, site, numbers, refs, people, build_time)
+        html = render_page(name, site, numbers, refs, people, build_time, listen=manifest.get("listen"))
         (out_root / f"{name}.html").write_text(html, encoding="utf-8")
         print(f"  page  {name}.html ({len(html):,} bytes)")
     return out_root

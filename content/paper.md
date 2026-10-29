@@ -67,13 +67,17 @@ Lyricists and singers fall below parity; arrangers, players, backing vocalists a
 
 ## The sound follows the structure
 
-Because PASMA does not include the recordings, we assembled a separate corpus of {MERT曲數} recordings ({MERT年份}), removed the vocals with Hybrid Demucs [@Defossez2022hybrid], embedded the instrumental stems with MERT-330M [@MERT2023] and projected the embeddings with UMAP [@McInnes2018]. MERT was given no dates. No audio is redistributed.
+Because PASMA does not include the recordings, we assembled a separate corpus of {MERT曲數} recordings ({MERT年份}), removed the vocals with Hybrid Demucs [@Defossez2022hybrid], embedded the instrumental stems with MERT-330M [@MERT2023] and projected the embeddings with UMAP [@McInnes2018]. MERT was given no dates. Neither PASMA nor the MERT corpus includes or releases audio; the twenty stems below are listening examples added to this companion site, not part of either dataset.
 
 <div class="fig-row">
 <figure><img src="assets/img/mert_year.png" alt="UMAP projection of MERT embeddings coloured by period" loading="lazy"><figcaption>(a) Coloured by period. Recordings before and after 1978 occupy largely distinct regions.</figcaption></figure>
 <figure><img src="assets/img/mert_traditions.png" alt="UMAP projection coloured by arrangement tradition" loading="lazy"><figcaption>(b) Coloured by arrangement tradition. Three traditions form their own regions; CHEN Chih-yuan's works spread across the whole space.</figcaption></figure>
 <figure><img src="assets/img/mert_without_chen.png" alt="UMAP projection recomputed without CHEN Chih-yuan" loading="lazy"><figcaption>(c) Recomputed without CHEN Chih-yuan and his protégé. The remaining traditions separate more sharply.</figcaption></figure>
 </div>
+
+### Listen
+
+<!-- listen -->
 
 The four arrangement traditions, and what they correspond to historically, are described in [Historical Context, Section 6](history.html#6-four-arrangement-traditions).
 
